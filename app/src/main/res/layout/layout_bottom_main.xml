@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_65sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/tab__main_activity__file_reader"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_home_act"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/ic_reader_tab" />
+
+            <TextView
+                android:id="@+id/tv_home_act"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:duplicateParentState="true"
+                android:gravity="center|top"
+                android:text="@string/tab_reader"
+                android:textColor="@color/color_enable_tab"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab__main_activity__recent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/im_recent"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_recent_tab" />
+
+            <TextView
+                android:id="@+id/tv_recent"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:duplicateParentState="true"
+                android:gravity="center|top"
+                android:text="@string/tab_recent"
+                android:textColor="@color/color_disable_tab"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_create_file"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/floating_main_activity__fab"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_18sdp"
+                android:background="@drawable/bg_circle_create_file"
+                android:padding="@dimen/_9sdp"
+                android:src="@drawable/ic_create_office" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab__main_activity__bookmark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_bookmark"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_bookmark_tab" />
+
+            <TextView
+                android:id="@+id/tv_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:duplicateParentState="true"
+                android:gravity="center|top"
+                android:text="@string/tab_boomark"
+                android:textColor="@color/color_disable_tab"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab__main_activity__file_manager"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_storage"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_storage_tab" />
+
+            <TextView
+                android:id="@+id/tv_storage"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:duplicateParentState="true"
+                android:gravity="center|top"
+                android:text="@string/tab_storage"
+                android:textColor="@color/color_disable_tab"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

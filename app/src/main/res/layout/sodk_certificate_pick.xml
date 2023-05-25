@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.artifex.sonui.editor.SOTextView android:textSize="18.0sp" android:layout_gravity="center_vertical" android:text="@string/sodk_certificates" android:layout_marginStart="@dimen/_7sdp" style="@style/sodk_cert_detail_title" />
+        <View style="@style/sodk_dialog_separator" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/sodk_certificate_list" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.supportv1.v7.widget.RecyclerView android:id="@id/certificate_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" style="@style/sodk_dialog_panel_border" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/sodk_dialog_panel">
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_certificate_details" style="@style/sodk_cert_detail_heading" />
+                <View android:paddingStart="@dimen/_7sdp" android:paddingEnd="@dimen/_7sdp" style="@style/sodk_dialog_separator" />
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_issued_to" style="@style/sodk_cert_detail_heading" />
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_certificate_common_name" style="@style/sodk_cert_detail_subheading" />
+                <com.artifex.sonui.editor.SOTextView android:id="@id/certificate_cn" android:text="" style="@style/sodk_cert_detail_description" />
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_certificate_org" style="@style/sodk_cert_detail_subheading" />
+                <com.artifex.sonui.editor.SOTextView android:id="@id/certificate_o" android:text="" style="@style/sodk_cert_detail_description" />
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_certificate_org_unit" style="@style/sodk_cert_detail_subheading" />
+                <com.artifex.sonui.editor.SOTextView android:id="@id/certificate_ou" android:text="" style="@style/sodk_cert_detail_description" />
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_certificate_email" style="@style/sodk_cert_detail_subheading" />
+                <com.artifex.sonui.editor.SOTextView android:id="@id/certificate_email" android:text="" style="@style/sodk_cert_detail_description" />
+                <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_certificate_country" style="@style/sodk_cert_detail_subheading" />
+                <com.artifex.sonui.editor.SOTextView android:id="@id/certificate_c" android:text="" style="@style/sodk_cert_detail_description" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/sodk_certificate_none" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.artifex.sonui.editor.SOTextView android:text="@string/sodk_no_certificates" style="@style/sodk_cert_detail_heading" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/sodk_choose_signature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_7sdp" android:text="@string/sodk_certificate_sign" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/_7sdp" android:layout_alignParentEnd="true" style="@style/sodk_dialog_button" />
+</RelativeLayout>

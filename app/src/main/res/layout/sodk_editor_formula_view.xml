@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_3sdp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.artifex.sonui.editor.SOTextView android:textSize="@dimen/_13sdp" android:textStyle="bold" android:id="@id/formula" android:padding="@dimen/_3sdp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/sodk_editor_font_formula_text_box_style" />
+        <com.artifex.sonui.editor.SOTextView android:textSize="14.0sp" android:id="@id/description" android:padding="@dimen/_3sdp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/sodk_editor_font_formula_text_box_style" />
+    </LinearLayout>
+</LinearLayout>

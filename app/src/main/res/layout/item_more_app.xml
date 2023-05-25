@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="40"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imv_item_more_app__icon"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_7sdp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/menu_pdf" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_weight="35"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_item_more_app__name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/colorBlack_1F4B6E"
+            android:textSize="@dimen/_13sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/ic_gift_star"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/todo"
+                    android:layout_marginEnd="@dimen/_5sdp"/>
+                <TextView
+                    android:id="@+id/txv_item_more_app__rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="start|center"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/gift_rate"
+                    android:textColor="@color/colorActive_1F4B6E"
+                    android:textSize="@dimen/_11sdp"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/ic_gift_download"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/todo"
+                    android:layout_marginEnd="@dimen/_5sdp"/>
+
+                <TextView
+                    android:id="@+id/txv_item_more_app__downloaded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center_horizontal"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/gift_count_install"
+                    android:textColor="@color/colorActive_1F4B6E"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_item_more_app__install"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_button_install"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:text="@string/gift_install"
+        android:textColor="@color/colorWhite_ffffff" />
+
+</LinearLayout>

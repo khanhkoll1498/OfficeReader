@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/566283adef05ef0450b029df573b05d7/jetified-utils-v4-1.6.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/566283adef05ef0450b029df573b05d7/jetified-utils-v4-1.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/566283adef05ef0450b029df573b05d7/jetified-utils-v4-1.6.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ogaclejapan.smarttablayout/utils-v4/1.6.0/1e67482e25666f2a771300deefc510a5bee93230/utils-v4-1.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ogaclejapan.smarttablayout/utils-v4/1.6.0/1f2ec98e9708db5105bd21478fad9c06795d14f9/utils-v4-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

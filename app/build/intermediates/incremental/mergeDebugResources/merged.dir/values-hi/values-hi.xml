@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="cancel_dialog">#F5F5F5</color>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="ad_attribution">विज्ञापन</string>
+    <string name="ads_text_button">ADS</string>
+    <string name="ads_title">एप्लिकेशन का उपयोग करने के लिए धन्यवाद! यह वीडियो आपको समुदाय के लिए एक बेहतर और मुफ्त एप्लिकेशन का अनुभव करने में मदद करने के लिए है।</string>
+    <string name="album">Album</string>
+    <string name="app_name">ऑफिस रीडर</string>
+    <string name="book_mark_tab">बुकमार्क</string>
+    <string name="cancel_button_label">रद्द करना</string>
+    <string name="choose_button_label">खुला</string>
+    <string name="coin_1000">1000 सिक्के</string>
+    <string name="coin_150">150 सिक्के</string>
+    <string name="coin_300">300 सिक्के</string>
+    <string name="coin_50">50 सिक्के</string>
+    <string name="coin_500">500 सिक्के</string>
+    <string name="color">रंग</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"चालू करें"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"जब तक आप Google Play सेवाएं चालू नहीं करते, <ns1:g id="APP_NAME">%1$s</ns1:g> काम नहीं करेगा."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play सेवाएं चालू करें"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"इंस्टॉल करें"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play सेवाएं इंस्टॉल करें"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play सेवाएं उपलब्ध हैं"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play सेवाओं से जुड़ी गड़बड़ी"</string>
+    <string name="common_google_play_services_unknown_issue">common_google_play_services_unknown_issue</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"अपडेट करें"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते."</string>
+    <string name="common_google_play_services_update_title">common_google_play_services_update_title</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"फ़ोन पर खोलें"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"साइन इन करें"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google के ज़रिए साइन इन करें"</string>
+    <string name="confirm">Confirm</string>
+    <string name="content_fake_title">जब आप अपनी इच्छा के अनुसार सभी फ़ाइलों को पढ़ सकते हैं, तो यह ऐप आपको एक शानदार अनुभव प्रदान करता है। कृपया इसे तुरंत उपयोग करें।</string>
+    <string name="could_not_open_file">फ़ाइल को खोल नहीं सका!</string>
+    <string name="create_document">Create document</string>
+    <string name="create_new_ads">View ads</string>
+    <string name="create_new_excel">New excel</string>
+    <string name="create_new_slide">New Slide</string>
+    <string name="create_new_word">New word</string>
+    <string name="crop">Crop</string>
+    <string name="dear_user">प्रिय उपयोगकर्ता</string>
+    <string name="default_dir" translatable="false">/sdcard</string>
+    <string name="delete">Delete</string>
+    <string name="dialog_enable_internet">इंटरनेट सक्षम करें</string>
+    <string name="dialog_enable_new_update">अभी अपग्रेड करें !</string>
+    <string name="dialog_message_internet">कृपया बेहतर कार्यात्मक अनुभव के लिए इंटरनेट को सक्षम करें!</string>
+    <string name="dialog_suggest_bill_content">क्या आप विज्ञापनों को हटाना चाहते हैं और चिकनी ऐप्स का अनुभव करना चाहते हैं? कृप्या! अपने डेवलपर के एक हिस्से का योगदान करने के लिए हमारी सेवा का उपयोग करके अपने लिए कई नए अनुभव और कार्य करें।</string>
+    <string name="dialog_suggest_bill_title">अब कोशिश करो</string>
+    <string name="donate_button">दान करना</string>
+    <string name="donate_content">एप्लिकेशन का उपयोग करते समय हम सभी विज्ञापन निकाल देंगे।</string>
+    <string name="donate_name_bread">रोटी</string>
+    <string name="donate_name_coffee">कॉफ़ी</string>
+    <string name="donate_name_hamburger">हैमबर्गर</string>
+    <string name="donate_name_hotdog">हॉट - डॉग</string>
+    <string name="donate_name_pizza">पिज़्ज़ा</string>
+    <string name="donate_price_bread">1.99 $</string>
+    <string name="donate_price_coffee">2.99 $</string>
+    <string name="donate_price_hamburger">3.99 $</string>
+    <string name="donate_price_hotdog">0.99 $</string>
+    <string name="donate_price_pizza">9.99 $</string>
+    <string name="donate_success">आप हमें एक उपहार दान करते हैं</string>
+    <string name="donate_success_coins">100 सिक्के</string>
+    <string name="donate_success_give">धन्यवाद करने के लिए, हम आपको देते हैं:</string>
+    <string name="donate_success_remove_ads">विज्ञापनों को स्थायी रूप से हटा दें</string>
+    <string name="donate_title">समुदाय के लिए एक स्वतंत्र अनुप्रयोग विकसित करने के लिए हमें प्रेरित करने के लिए हमें एक उपहार दें!</string>
+    <string name="error_dir_access">निर्देशिका तक पहुँचा नहीं जा सकता</string>
+    <string name="excel">Excel</string>
+    <string name="feedback_navi">प्रतिपुष्टि</string>
+    <string name="file_manager_tab">दुकान</string>
+    <string name="file_reader_tab">पाठक</string>
+    <string name="fill_feedback">कृपया कुछ लिखिए</string>
+    <string name="get_version_app">संस्करण:</string>
+    <string name="gift_count_install">100,000</string>
+    <string name="gift_full_ads">पूर्ण विज्ञापन</string>
+    <string name="gift_full_ads_detail">हर दिन बेहतर ऐप के विज्ञापन देखने के लिए क्लिक करें</string>
+    <string name="gift_full_ads_title">विज्ञापन देखें</string>
+    <string name="gift_install">इंस्टॉल करें I</string>
+    <string name="gift_rate">4.6</string>
+    <string name="gift_remove_ads">विज्ञापन हटाएँ</string>
+    <string name="gift_remove_ads_detail">अच्छे अनुभव के लिए विज्ञापन निकालें</string>
+    <string name="gift_tab">उपहार</string>
+    <string name="gift_watch_ads_content">अधिक स्कोर अर्जित करने के लिए विज्ञापन देखें</string>
+    <string name="gift_watch_ads_detail">हमें ऐप्स बेहतर बनाने के लिए वीडियो विज्ञापन देखने के लिए क्लिक करें</string>
+    <string name="gift_watch_ads_title">इनामी अंक</string>
+    <string name="image">Image</string>
+    <string name="internet_cancel">रद्द करना</string>
+    <string name="internet_try_again">पुनः प्रयास करें</string>
+    <string name="intro1_content">Office \n दस्तावेज़ फ़ाइल को पढ़ने के लिए सॉफ़्टवेयर का प्रभुत्व करें।</string>
+    <string name="intro1_enjoy">का आनंद लें</string>
+    <string name="intro1_title">सभी दस्तावेज़ फ़ाइल पढ़ने का आनंद लें</string>
+    <string name="intro1_title_enjoy">का आनंद लें</string>
+    <string name="intro1_title_powerfull">शक्तिशाली</string>
+    <string name="intro2_content">सबसे शक्तिशाली फ़ाइल रीडर अनुप्रयोग \n ने कभी उपयोग किया है। \n किसी वरिष्ठ डेवलपर द्वारा उपयोग की अनुशंसा करें।</string>
+    <string name="intro2_title">शक्तिशाली पाठक \n अनुप्रयोग</string>
+    <string name="intro3_content">कभी-कभी ऊपर की छवि जैसी छवियां ऐप में दिखाई देंगी क्योंकि यह समुदाय को मुफ्त ऐप देगी।</string>
+    <string name="intro3_permission">फ्री कूल रीडर</string>
+    <string name="intro3_title">नि: शुल्क शांत गड़बड़</string>
+    <string name="intro_great">महान !</string>
+    <string name="intro_next">आगे</string>
+    <string name="just_only">बस एक अंतिम चरण बचा है</string>
+    <string name="label_parent_dir" translatable="false">...</string>
+    <string name="label_parent_directory">मूल निर्देशिका</string>
+    <string name="last_edit">संपादित:</string>
+    <string name="last_update">आप नवीनतम संस्करण का उपयोग कर रहे हैं। धन्यवाद!</string>
+    <string name="later">बाद में</string>
+    <string name="loading_ads">विज्ञापन लोड हो रहे हैं</string>
+    <string name="loading_file">फ़ाइल लोड हो रही है …</string>
+    <string name="mn_open">खुला</string>
+    <string name="mn_share_file">फ़ाइल साझा करें</string>
+    <string name="mn_short_cut">शॉर्टकट बनाएं</string>
+    <string name="new_file">New File</string>
+    <string name="new_file_create">New file</string>
+    <string name="no_file_bookmark">फ़ाइल नहीं</string>
+    <string name="no_file_bookmark_hint">बुकमार्क में नई फ़ाइल जोड़ें।</string>
+    <string name="no_file_found">कोई फाइल नहीं मिली</string>
+    <string name="no_file_hint">खोज फ़ाइल नई खुली अब।</string>
+    <string name="no_file_recent_hint">हाल का दृश्य जोड़ने के लिए फ़ाइल खोलें।</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"विज्ञापन खोलने के लिए टैप करें"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"वह विज्ञापन देखें जिसे आपने तब सेव किया था, जब आप ऑफ़लाइन थे"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ठीक है"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"वापस ऑनलाइन आने पर, आपको एक सूचना मिलेगी जिसमें लिंक होगा"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"रहने दें"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"हम आपको एक सूचना भेजेंगे जिसमें विज्ञापन देने वाले की साइट का लिंक होगा."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"वापस ऑनलाइन आने पर, विज्ञापन खोलें."</string>
+    <string name="pdf">PDF</string>
+    <string name="permisson_cancel">रद्द करना</string>
+    <string name="permisson_go_to_setting">स्थापना</string>
+    <string name="permisson_need_permission">अनुमति चाहिए</string>
+    <string name="permisson_need_permission_message">आप सेटिंग में अनुमति को चालू कर सकते हैं</string>
+    <string name="plz_enter_content">कृपया खोज करने के लिए सामग्री दर्ज करें</string>
+    <string name="ppt">РРТ</string>
+    <string name="press_again">बाहर निकलने के लिए फिर से दबाएं!</string>
+    <string name="rate_app_navi">एप्लिकेशन का मूल्यांकन करें</string>
+    <string name="rate_check_do_not_show">फिर से नहीं दिखा</string>
+    <string name="rate_content_feedback">आइए हम इस एप्लिकेशन के लिए कार्यक्षमता और अनुभव को बेहतर ढंग से अपग्रेड करें। आपका बहुत बहुत धन्यवाद!</string>
+    <string name="rate_content_rate_app">कृप्या! ऑफिस रीडर के लिए 5 सितारों को रेट करने के लिए एक क्षण लें। आपके समर्थन के लिए धन्यवाद!</string>
+    <string name="rate_content_sign">\n संस्करण कोड:</string>
+    <string name="rate_do_you_like_this_app">क्या आपको यह एप्लीकेशन पसंद है?</string>
+    <string name="rate_feedback">कृपया हमें प्रतिक्रिया भेजें</string>
+    <string name="rate_feedback_hint">हमें बताएं कि क्या गलत हुआ और हम इस पर काम करेंगे</string>
+    <string name="rate_title">[रेट डायलॉग] ऑफिस रीडर</string>
+    <string name="rate_toast">क्षमा करें, आपने इस एप्लिकेशन को रेट कर लिया है। ऐप को रेट करने के लिए कृपया स्टोर में प्रवेश करें। धन्यवाद!</string>
+    <string name="reading_mode">पढ़ना मोड</string>
+    <string name="recent_tab">हाल का</string>
+    <string name="reflect">Reflect</string>
+    <string name="remove_ads_success">सफलता! अब, ऐप में विज्ञापन नहीं हैं। आपको बहुत - बहुत धन्यवाद!</string>
+    <string name="remove_all_ads">सभी विज्ञापनों को हटा दें</string>
+    <string name="rotate">Rotate</string>
+    <string msgid="368094699078615544" name="s1">"इमेज सेव करें"</string>
+    <string msgid="4550830452390689489" name="s2">"विज्ञापन को तस्वीर गैलरी में इमेज सेव करने का अनुमति देना चाहते हैं?"</string>
+    <string msgid="2435407834265420668" name="s3">"मंज़ूरी दें"</string>
+    <string msgid="9167523597401839819" name="s4">"खारिज करें"</string>
+    <string msgid="1566682516266724847" name="s5">"कैलेंडर इवेंट बनाएं"</string>
+    <string msgid="5996672174517137271" name="s6">"विज्ञापन को कैलेंडर इवेंट बनाने दें?"</string>
+    <string msgid="7163549807207034258" name="s7">"जाँच विज्ञापन"</string>
+    <string name="save">Save</string>
+    <string name="scan_file">Scan all files in your device</string>
+    <string name="scan_file_nav">Sacn file</string>
+    <string name="scan_file_success">Scan file success</string>
+    <string name="search_hint">फ़ाइल खोजें …</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="send_feedback">प्रतिक्रिया भेजें</string>
+    <string name="setting_nav">स्थापना</string>
+    <string name="share_app_navi">ऐप शेयर करें</string>
+    <string name="share_view">आसक्ति के रूप में भेजें</string>
+    <string name="show_slide">Show Slide</string>
+    <string name="skip">Skip</string>
+    <string name="slide">Slide</string>
+    <string name="start">शुरू</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">रुकें</string>
+    <string name="suggest_ok">ठीक</string>
+    <string name="tab_boomark">Bookmark</string>
+    <string name="tab_gift_title">जब तक आप मेरी क्षुधा का अनुभव करने के लिए स्वतंत्र महसूस करते हैं, तब तक इच्छुक उपयोगकर्ताओं के लिए निःशुल्क ऐप्स का योगदान जारी रखना हमारे लिए बड़ा सम्मान है।</string>
+    <string name="tab_reader">Reader</string>
+    <string name="tab_recent">Recent</string>
+    <string name="tab_storage">File</string>
+    <string name="tap_to_refresh">इंटरनेट चालू करने के लिए टैप करें</string>
+    <string name="template">Template</string>
+    <string name="template_create">Template</string>
+    <string name="text_error_content">बहुत अफसोस! कृपया, बेहतर सुधार के लिए प्रतिक्रिया। आपको बहुत - बहुत धन्यवाद!</string>
+    <string name="text_error_title">ओह तस्वीर!</string>
+    <string name="thank_scan_file">Thanks for using app</string>
+    <string name="thank_share">अपनी प्रतिक्रिया साझा करने के लिए धन्यवाद</string>
+    <string name="thank_you">धन्यवाद \n</string>
+    <string name="thank_you_dialog">हमारे आवेदन का उपयोग करने के लिए धन्यवाद। आशा है कि एप्लिकेशन आपको संतुष्ट करता है। आवेदन की गुणवत्ता और अनुभव को बेहतर बनाने के लिए कृपया हमसे जुड़ें। बहुत बहुत धन्यवाद!</string>
+    <string name="thank_you_dialog_title">डेवलपर से पत्र</string>
+    <string name="thanks">धन्यवाद</string>
+    <string name="this_last_version">यह संस्करण आपके लिए नवीनतम संस्करण है। आवेदन का उपयोग करने के लिए धन्यवाद।</string>
+    <string name="toast_added_bookmark">बुकमार्क करने के लिए फ़ाइल जोड़ा गया!</string>
+    <string name="toast_file_added">फ़ाइल जोड़ी गई!</string>
+    <string name="toast_rating">आपने अभी तक हमें रेट नहीं किया है! कृपया शीर्षक का मूल्यांकन करने के लिए स्टार को दबाएं।</string>
+    <string name="toast_removed_file">बुकमार्क से हटाई गई फ़ाइल!</string>
+    <string name="todo">करने के लिए</string>
+    <string name="try_again">पुनः प्रयास करें</string>
+    <string name="tutorial">आप अगले पृष्ठ को देखने के लिए बाएं से दाएं स्वाइप कर सकते हैं</string>
+    <string name="tx_0">0</string>
+    <string name="txt">TXT</string>
+    <string name="update">अपडेट करें</string>
+    <string name="update_app">आवेदन से एक शानदार अनुभव प्राप्त करने के लिए कृपया नवीनतम संस्करण में एप्लिकेशन का उपयोग करें। \n \n बहुत बहुत धन्यवाद!</string>
+    <string name="update_nav">नई अपडेट</string>
+    <string name="version_navi">संस्करण</string>
+    <string name="view_horizontal">क्षैतिज देखें</string>
+    <string name="view_vertical">ऊर्ध्वाधर देखें</string>
+    <string name="word">Word</string>
+    <string name="you">आप</string>
+</resources>

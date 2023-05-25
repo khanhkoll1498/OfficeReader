@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.SanojPunchihewa:InAppUpdater:1.0.5-alpha.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a1677ffc23178f9656d4ccd1e7ce60f/jetified-InAppUpdater-1.0.5-alpha.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a1677ffc23178f9656d4ccd1e7ce60f/jetified-InAppUpdater-1.0.5-alpha.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a1677ffc23178f9656d4ccd1e7ce60f/jetified-InAppUpdater-1.0.5-alpha.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.SanojPunchihewa/InAppUpdater/1.0.5-alpha.1/665c8bcee486ab135479293f90c07788e7c3cc78/InAppUpdater-1.0.5-alpha.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

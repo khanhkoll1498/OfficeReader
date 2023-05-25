@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.all.officereader.screens.fragments.FileManagerFragment">
+
+    <RelativeLayout
+        android:id="@+id/flip_file_manager__flipView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/imv_file_manager__no_internet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/_3sdp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/bg_no_internet"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rll_file_manager_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_fragment_file_manager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_below="@+id/flip_file_manager__flipView"
+        android:layout_gravity="center_horizontal"/>
+</RelativeLayout>

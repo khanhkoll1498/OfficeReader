@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.all.officereader.screens.fragments.RecentFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_fragment_file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_file" />
+
+    <LinearLayout
+        android:id="@+id/rll_fragment_file__no_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/no_file_search" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_file_bookmark"
+            android:textColor="@color/colorNoFileB1BECD"
+            android:textSize="@dimen/_11sdp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pgb_fragment_file__loading"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_file">Scan all files in your device</string>
+    <string name="scan_file_success">Scan file success</string>
+    <string name="thank_scan_file">Thanks for using app</string>
+    <string name="scan_file_nav">Sacn file</string>
+    <string name="template_create">Template</string>
+    <string name="new_file_create">New file</string>
+    <string name="create_document">Create document</string>
+    <string name="ads_text_button">ADS</string>
+    <string name="txt">TXT</string>
+    <string name="confirm">Confirm</string>
+    <string name="rotate">Rotate</string>
+    <string name="reflect">Reflect</string>
+    <string name="crop">Crop</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+</resources>

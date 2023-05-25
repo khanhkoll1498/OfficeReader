@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/_7sdp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.artifex.sonui.editor.SOEditText android:id="@id/editTextDialogUserInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" style="@style/sodk_editor_alert_edit_text_style">
+        <requestFocus />
+    </com.artifex.sonui.editor.SOEditText>
+</LinearLayout>

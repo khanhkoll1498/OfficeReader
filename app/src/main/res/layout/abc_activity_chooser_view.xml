@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_gravity="center" android:id="@id/activity_chooser_view_content" android:layout_width="wrap_content" android:layout_height="match_parent" class="android.android.supportv1.v7.widget.ActivityChooserView$InnerLayout" style="?activityChooserViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/expand_activities_button" android:background="?actionBarItemBackground" android:paddingLeft="@dimen/_10sdp" android:paddingTop="@dimen/_1sdp" android:paddingRight="@dimen/_10sdp" android:paddingBottom="@dimen/_1sdp" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/default_activity_button" android:background="?actionBarItemBackground" android:paddingLeft="@dimen/_10sdp" android:paddingTop="@dimen/_1sdp" android:paddingRight="@dimen/_10sdp" android:paddingBottom="@dimen/_1sdp" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    </FrameLayout>
+</view>

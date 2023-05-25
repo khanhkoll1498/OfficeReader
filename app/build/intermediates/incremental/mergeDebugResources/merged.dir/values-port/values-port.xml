@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+    <string name="ads_text_button">ADS</string>
+    <string name="confirm">Confirm</string>
+    <string name="create_document">Create document</string>
+    <string name="crop">Crop</string>
+    <string name="delete">Delete</string>
+    <string name="new_file_create">New file</string>
+    <string name="reflect">Reflect</string>
+    <string name="rotate">Rotate</string>
+    <string name="save">Save</string>
+    <string name="scan_file">Scan all files in your device</string>
+    <string name="scan_file_nav">Sacn file</string>
+    <string name="scan_file_success">Scan file success</string>
+    <string name="template_create">Template</string>
+    <string name="thank_scan_file">Thanks for using app</string>
+    <string name="txt">TXT</string>
+</resources>

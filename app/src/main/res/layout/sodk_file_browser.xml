@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/_1sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_dialog"
+        android:orientation="vertical"
+        android:padding="@dimen/_1sdp"
+        android:paddingTop="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@id/edit_text_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <com.artifex.sonui.editor.SOEditText
+                android:id="@id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_weight="8"
+                android:hint="@string/sodk_editor_file_name"
+                android:textColor="@color/text"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/breadcrumb_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_wrapper"
+            android:layout_marginStart="@dimen/_5sdp">
+
+            <include layout="@layout/sodk_breadcrumb" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.artifex.sonui.ExplorerListView
+                android:id="@id/fileListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:choiceMode="singleChoice"
+                android:splitMotionEvents="false" />
+
+            <com.artifex.sonui.editor.SOTextView
+                android:id="@id/no_documents_found"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="@string/sodk_editor_no_documents_found"
+                android:textColor="@color/sodk_so_ui_explorer_text_color"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@id/enumerate_progress"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="@dimen/_15sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/cancel_button"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_cancel"
+                android:onClick="onClickCancel"
+                android:text="@string/cancel_dialog"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_13sdp" />
+
+            <Button
+                android:id="@id/save_button"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_oke_dialog"
+                android:onClick="onClickSave"
+                android:text="@string/sodk_editor_save"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite_ffffff"
+                android:textSize="@dimen/_13sdp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/preview_panel" android:background="@drawable/sodk_preview_background" android:paddingLeft="@dimen/_10sdp" android:paddingRight="@dimen/_10sdp" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="horizontal" android:id="@id/box1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ImageButton android:layout_gravity="center_vertical" android:background="@color/sodk_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sodk_icon_back" android:onClick="onClickPreviewGoBack" android:contentDescription="@string/sodk_editor_nav_back" />
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/_1sdp" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/preview_last_viewed_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sodk_icon_metadata_last_edited" android:scaleType="fitCenter" android:minWidth="@dimen/_20sdp" android:minHeight="@dimen/_20sdp" android:contentDescription="@string/sodk_editor_last_viewed" android:paddingEnd="@dimen/_5sdp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_width="0.0dip" android:layout_height="@dimen/_5sdp" />
+                <com.artifex.sonui.editor.SOTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sodk_so_ui_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_last_viewed" />
+                <com.artifex.sonui.editor.SOTextView android:textSize="14.0sp" android:textColor="@color/sodk_so_ui_default_text_color_light" android:id="@id/preview_last_viewed_string" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:layout_width="24.0dip" android:layout_height="@dimen/_1sdp" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/preview_file_size_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sodk_icon_metadata_filesize" android:scaleType="fitCenter" android:minWidth="@dimen/_20sdp" android:minHeight="@dimen/_20sdp" android:contentDescription="@string/sodk_editor_file_size" android:paddingEnd="@dimen/_5sdp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_width="0.0dip" android:layout_height="@dimen/_5sdp" />
+                <com.artifex.sonui.editor.SOTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sodk_so_ui_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_file_size" />
+                <com.artifex.sonui.editor.SOTextView android:textSize="14.0sp" android:textColor="@color/sodk_so_ui_default_text_color_light" android:id="@id/preview_file_size_string" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/box2" android:background="@color/sodk_so_ui_menu_color" android:padding="@dimen/_7sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/box1">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/preview_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/sodk_editor_preview_icon" android:paddingEnd="@dimen/_7sdp" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.artifex.sonui.editor.SOTextView android:textSize="18.0sp" android:id="@id/preview_short_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.artifex.sonui.editor.SOTextView android:textSize="18.0sp" android:id="@id/preview_long_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/preview_pager_container" android:padding="@dimen/_7sdp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/box4" android:layout_below="@id/box2">
+            <android.supportv1.v7.widget.RecyclerView android:id="@id/preview_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/box4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/box5parent">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.artifex.sonui.editor.SOTextView android:textSize="18.0sp" android:textColor="@color/sodk_so_ui_default_text_color_light" android:id="@id/preview_page_counter" android:background="@color/sodk_so_ui_menu_color" android:padding="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/box5parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/box5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="6.0">
+                <com.artifex.sonui.editor.ToolbarButton android:textSize="14.0sp" android:textColor="@color/sodk_explorer_preview_text_color" android:id="@id/preview_copy_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_copy_upper" android:drawableTop="@drawable/sodk_icon_duplicate_doc" android:layout_weight="1.0" android:onClick="onPreviewCopy" style="@style/sodk_editor_toolbar_button" />
+                <com.artifex.sonui.editor.ToolbarButton android:textSize="14.0sp" android:textColor="@color/sodk_explorer_preview_text_color" android:id="@id/preview_rename_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_rename_upper" android:drawableTop="@drawable/sodk_icon_rename_doc" android:layout_weight="1.0" android:onClick="onPreviewRename" style="@style/sodk_editor_toolbar_button" />
+                <com.artifex.sonui.editor.ToolbarButton android:textSize="14.0sp" android:textColor="@color/sodk_explorer_preview_text_color" android:id="@id/preview_share_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_share_upper" android:drawableTop="@drawable/sodk_icon_share" android:layout_weight="1.0" android:onClick="onPreviewShare" style="@style/sodk_editor_toolbar_button" />
+                <com.artifex.sonui.editor.ToolbarButton android:textSize="14.0sp" android:textColor="@color/sodk_explorer_preview_text_color" android:id="@id/preview_print_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_print_upper" android:drawableTop="@drawable/sodk_icon_print" android:layout_weight="1.0" android:onClick="onPreviewPrint" style="@style/sodk_editor_toolbar_button" />
+                <com.artifex.sonui.editor.ToolbarButton android:textSize="14.0sp" android:textColor="@color/sodk_explorer_preview_text_color" android:id="@id/preview_delete_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_delete_upper" android:drawableTop="@drawable/sodk_icon_delete_doc" android:layout_weight="1.0" android:onClick="onPreviewDelete" style="@style/sodk_editor_toolbar_button" />
+                <com.artifex.sonui.editor.ToolbarButton android:textSize="14.0sp" android:textColor="@color/sodk_explorer_preview_text_color" android:id="@id/preview_present_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sodk_editor_present_upper" android:drawableTop="@drawable/sodk_icon_play_slideshow" android:onClick="onPreviewSlideshow" style="@style/sodk_editor_toolbar_button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

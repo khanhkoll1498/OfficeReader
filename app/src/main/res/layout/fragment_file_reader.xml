@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.all.officereader.screens.fragments.FileReaderFragment">
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/flip_activity_main__flipView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        app:autoFlipBack="false"
+        app:flipDuration="800"
+        app:flipEnabled="true"
+        app:flipFrom="right"
+        app:flipOnTouch="false"
+        app:flipType="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lnl_flip_activity_main__menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_all_file"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/tv_all_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:text="All"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_12sdp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_word"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/txv_flip_activity_main__word"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:text="@string/word"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pdf"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/txv_flip_activity_main__pdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:text="@string/pdf"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_excel"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/txv_flip_activity_main__excel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:text="@string/excel"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_slide"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/txv_flip_activity_main__ppt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:text="@string/slide"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_txt"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/tv_txt_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:text="@string/txt"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_12sdp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpg_fragment_file_reader_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/flip_activity_main__flipView" />
+</RelativeLayout>

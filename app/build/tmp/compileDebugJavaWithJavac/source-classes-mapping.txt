@@ -1,0 +1,558 @@
+com/all/officereader/screens/activities/MyApplication.java
+ com.all.officereader.screens.activities.MyApplication
+com/all/officereader/helpers/bases/BaseDialog.java
+ com.all.officereader.helpers.bases.BaseDialog
+com/artifex/sonui/editor/NUIActivity.java
+ com.artifex.sonui.editor.NUIActivity
+ com.artifex.sonui.editor.NUIActivity$1
+ com.artifex.sonui.editor.NUIActivity$2
+ com.artifex.sonui.editor.NUIActivity$3
+com/all/officereader/receiver/HomeReceiver.java
+ com.all.officereader.receiver.HomeReceiver
+ com.all.officereader.receiver.HomeReceiver$InnerReceiver
+ com.all.officereader.receiver.HomeReceiver$OnHomePressedListener
+com/all/officereader/screens/fragments/FileReaderFragment.java
+ com.all.officereader.screens.fragments.FileReaderFragment
+ com.all.officereader.screens.fragments.FileReaderFragment$1
+com/all/officereader/screens/dialogs/FeedbackDialog.java
+ com.all.officereader.screens.dialogs.FeedbackDialog
+com/all/officereader/screens/ocr/EditOCRAdapter.java
+ com.all.officereader.screens.ocr.EditOCRAdapter
+ com.all.officereader.screens.ocr.EditOCRAdapter$1
+com/all/officereader/screens/ocr/fragments/TabScannerFragment.java
+ com.all.officereader.screens.ocr.fragments.TabScannerFragment
+com/all/officereader/helpers/bases/BaseActivityCode.java
+ com.all.officereader.helpers.bases.BaseActivityCode
+com/all/officereader/screens/adapters/MyViewPagerAdapter.java
+ com.all.officereader.screens.adapters.MyViewPagerAdapter
+ com.all.officereader.screens.adapters.MyViewPagerAdapter$1
+com/all/officereader/screens/ocr/PreviewPDFActivity.java
+ com.all.officereader.screens.ocr.PreviewPDFActivity
+ com.all.officereader.screens.ocr.PreviewPDFActivity$1
+ com.all.officereader.screens.ocr.PreviewPDFActivity$2
+ com.all.officereader.screens.ocr.PreviewPDFActivity$3
+com/artifex/sonui/ChoosePathActivity.java
+ com.artifex.sonui.ChoosePathActivity
+ com.artifex.sonui.ChoosePathActivity$1
+ com.artifex.sonui.ChoosePathActivity$2
+ com.artifex.sonui.ChoosePathActivity$3
+ com.artifex.sonui.ChoosePathActivity$4
+ com.artifex.sonui.ChoosePathActivity$a
+com/artifex/sonui/editor/NUIDocViewPdf.java
+ com.artifex.sonui.editor.NUIDocViewPdf
+ com.artifex.sonui.editor.NUIDocViewPdf$1
+ com.artifex.sonui.editor.NUIDocViewPdf$2
+ com.artifex.sonui.editor.NUIDocViewPdf$3
+ com.artifex.sonui.editor.NUIDocViewPdf$4
+ com.artifex.sonui.editor.NUIDocViewPdf$5
+ com.artifex.sonui.editor.NUIDocViewPdf$6
+ com.artifex.sonui.editor.NUIDocViewPdf$7
+ com.artifex.sonui.editor.NUIDocViewPdf$8
+ com.artifex.sonui.editor.NUIDocViewPdf$9
+com/all/officereader/helpers/utils/VectorDrawableUtils.java
+ com.all.officereader.helpers.utils.VectorDrawableUtils
+com/all/officereader/model/FileAssetModel.java
+ com.all.officereader.model.FileAssetModel
+com/all/officereader/screens/ocr/MyViewPagerAdapter.java
+ com.all.officereader.screens.ocr.MyViewPagerAdapter
+ com.all.officereader.screens.ocr.MyViewPagerAdapter$MyHolder
+com/artifex/sonui/editor/NUIDocViewOther.java
+ com.artifex.sonui.editor.NUIDocViewOther
+com/all/officereader/helpers/bases/animation/TranslateAnimator.java
+ com.all.officereader.helpers.bases.animation.TranslateAnimator
+com/all/officereader/helpers/utils/ScreenUtils.java
+ com.all.officereader.helpers.utils.ScreenUtils
+com/all/officereader/screens/custom_view/WheelViewAdapter.java
+ com.all.officereader.screens.custom_view.WheelViewAdapter
+com/all/officereader/helpers/provider/GenericFileProvider.java
+ com.all.officereader.helpers.provider.GenericFileProvider
+com/all/officereader/helpers/rating/RateStarDialog.java
+ com.all.officereader.helpers.rating.RateStarDialog
+com/all/officereader/screens/dialogs/LoadingRewardDialog.java
+ com.all.officereader.screens.dialogs.LoadingRewardDialog
+com/all/officereader/helpers/bubblenavigation/BubbleToggleItem.java
+ com.all.officereader.helpers.bubblenavigation.BubbleToggleItem
+com/all/officereader/screens/custom_view/AbstractWheelAdapter.java
+ com.all.officereader.screens.custom_view.AbstractWheelAdapter
+com/all/officereader/screens/dialogs/LoadingFileDialog.java
+ com.all.officereader.screens.dialogs.LoadingFileDialog
+com/all/officereader/screens/ocr/EditScannerActivity.java
+ com.all.officereader.screens.ocr.EditScannerActivity
+ com.all.officereader.screens.ocr.EditScannerActivity$1
+ com.all.officereader.screens.ocr.EditScannerActivity$2
+ com.all.officereader.screens.ocr.EditScannerActivity$3
+com/all/officereader/screens/ocr/popups/SignatureDialog.java
+ com.all.officereader.screens.ocr.popups.SignatureDialog
+ com.all.officereader.screens.ocr.popups.SignatureDialog$onDrawListener
+com/all/officereader/helpers/bases/animation/BaseObjectAnimator.java
+ com.all.officereader.helpers.bases.animation.BaseObjectAnimator
+android/supportv1/v4/util/SimpleArrayMap.java
+ android.supportv1.v4.util.SimpleArrayMap
+com/all/officereader/helpers/callbacks/IOnBackPressed.java
+ com.all.officereader.helpers.callbacks.IOnBackPressed
+com/all/officereader/screens/fragments/FileReaderTxtFragment.java
+ com.all.officereader.screens.fragments.FileReaderTxtFragment
+ com.all.officereader.screens.fragments.FileReaderTxtFragment$1
+com/all/officereader/screens/ocr/popups/ExportDialog.java
+ com.all.officereader.screens.ocr.popups.ExportDialog
+ com.all.officereader.screens.ocr.popups.ExportDialog$onExportListener
+com/all/officereader/screens/ocr/EditOCRActivity.java
+ com.all.officereader.screens.ocr.EditOCRActivity
+ com.all.officereader.screens.ocr.EditOCRActivity$1
+com/all/officereader/screens/ocr/ListOCRActivity.java
+ com.all.officereader.screens.ocr.ListOCRActivity
+ com.all.officereader.screens.ocr.ListOCRActivity$1
+ com.all.officereader.screens.ocr.ListOCRActivity$2
+com/all/officereader/screens/ocr/PageOcrAdapter.java
+ com.all.officereader.screens.ocr.PageOcrAdapter
+ com.all.officereader.screens.ocr.PageOcrAdapter$onCLickItem
+com/all/officereader/adapter/CreateFilePagerAdapter.java
+ com.all.officereader.adapter.CreateFilePagerAdapter
+com/all/officereader/adapter/OfficePagerAdapter.java
+ com.all.officereader.adapter.OfficePagerAdapter
+com/all/officereader/screens/ocr/fragments/GalleryFragments.java
+ com.all.officereader.screens.ocr.fragments.GalleryFragments
+com/all/officereader/screens/fragments/CreateTemplateFragment.java
+ com.all.officereader.screens.fragments.CreateTemplateFragment
+ com.all.officereader.screens.fragments.CreateTemplateFragment$1
+com/all/officereader/model/DialogProperties.java
+ com.all.officereader.model.DialogProperties
+com/all/officereader/screens/ocr/QueryAllStorage.java
+ com.all.officereader.screens.ocr.QueryAllStorage
+com/all/officereader/screens/ocr/view/StickerPropertyModel.java
+ com.all.officereader.screens.ocr.view.StickerPropertyModel
+com/all/officereader/screens/activities/ShowSlideActivity.java
+ com.all.officereader.screens.activities.ShowSlideActivity
+com/all/officereader/screens/ocr/general/PermissionUtils.java
+ com.all.officereader.screens.ocr.general.PermissionUtils
+com/all/officereader/model/DialogConfigs.java
+ com.all.officereader.model.DialogConfigs
+com/all/officereader/helpers/utils/SharedPreferencesUtility.java
+ com.all.officereader.helpers.utils.SharedPreferencesUtility
+com/all/officereader/screens/custom_view/AbstractWheelTextAdapter.java
+ com.all.officereader.screens.custom_view.AbstractWheelTextAdapter
+com/all/officereader/screens/custom_view/WheelScroller.java
+ com.all.officereader.screens.custom_view.WheelScroller
+ com.all.officereader.screens.custom_view.WheelScroller$1
+ com.all.officereader.screens.custom_view.WheelScroller$2
+ com.all.officereader.screens.custom_view.WheelScroller$ScrollingListener
+com/all/officereader/adapter/FileSearchAdapter.java
+ com.all.officereader.adapter.FileSearchAdapter
+ com.all.officereader.adapter.FileSearchAdapter$MyViewHolder
+ com.all.officereader.adapter.FileSearchAdapter$fileSearchAdapterListener
+com/artifex/sonui/editor/BaseActivity.java
+ com.artifex.sonui.editor.BaseActivity
+ com.artifex.sonui.editor.BaseActivity$PermissionResultHandler
+ com.artifex.sonui.editor.BaseActivity$ResultHandler
+ com.artifex.sonui.editor.BaseActivity$ResumeHandler
+com/all/officereader/helpers/callbacks/ItemFileClickListener.java
+ com.all.officereader.helpers.callbacks.ItemFileClickListener
+com/all/officereader/screens/ocr/fragments/FolderFragments.java
+ com.all.officereader.screens.ocr.fragments.FolderFragments
+ com.all.officereader.screens.ocr.fragments.FolderFragments$1
+com/all/officereader/screens/ocr/ZoomOutPageTransformer.java
+ com.all.officereader.screens.ocr.ZoomOutPageTransformer
+com/all/officereader/screens/custom_view/OnWheelScrollListener.java
+ com.all.officereader.screens.custom_view.OnWheelScrollListener
+com/all/officereader/helpers/utils/PathFileUtil.java
+ com.all.officereader.helpers.utils.PathFileUtil
+com/artifex/sonui/editor/NUIDocView.java
+ com.artifex.sonui.editor.NUIDocView
+ com.artifex.sonui.editor.NUIDocView$1
+ com.artifex.sonui.editor.NUIDocView$1$1
+ com.artifex.sonui.editor.NUIDocView$10
+ com.artifex.sonui.editor.NUIDocView$11
+ com.artifex.sonui.editor.NUIDocView$12
+ com.artifex.sonui.editor.NUIDocView$12$1
+ com.artifex.sonui.editor.NUIDocView$12$2
+ com.artifex.sonui.editor.NUIDocView$12$3
+ com.artifex.sonui.editor.NUIDocView$13
+ com.artifex.sonui.editor.NUIDocView$13$1
+ com.artifex.sonui.editor.NUIDocView$13$1$1
+ com.artifex.sonui.editor.NUIDocView$14
+ com.artifex.sonui.editor.NUIDocView$15
+ com.artifex.sonui.editor.NUIDocView$15$1
+ com.artifex.sonui.editor.NUIDocView$15$2
+ com.artifex.sonui.editor.NUIDocView$15$3
+ com.artifex.sonui.editor.NUIDocView$15$3$1
+ com.artifex.sonui.editor.NUIDocView$15$3$1$1
+ com.artifex.sonui.editor.NUIDocView$15$3$1$1$1
+ com.artifex.sonui.editor.NUIDocView$15$3$2
+ com.artifex.sonui.editor.NUIDocView$16
+ com.artifex.sonui.editor.NUIDocView$17
+ com.artifex.sonui.editor.NUIDocView$17$1
+ com.artifex.sonui.editor.NUIDocView$18
+ com.artifex.sonui.editor.NUIDocView$19
+ com.artifex.sonui.editor.NUIDocView$2
+ com.artifex.sonui.editor.NUIDocView$20
+ com.artifex.sonui.editor.NUIDocView$21
+ com.artifex.sonui.editor.NUIDocView$22
+ com.artifex.sonui.editor.NUIDocView$23
+ com.artifex.sonui.editor.NUIDocView$24
+ com.artifex.sonui.editor.NUIDocView$25
+ com.artifex.sonui.editor.NUIDocView$26
+ com.artifex.sonui.editor.NUIDocView$27
+ com.artifex.sonui.editor.NUIDocView$28
+ com.artifex.sonui.editor.NUIDocView$28$1
+ com.artifex.sonui.editor.NUIDocView$29
+ com.artifex.sonui.editor.NUIDocView$3
+ com.artifex.sonui.editor.NUIDocView$30
+ com.artifex.sonui.editor.NUIDocView$31
+ com.artifex.sonui.editor.NUIDocView$32
+ com.artifex.sonui.editor.NUIDocView$4
+ com.artifex.sonui.editor.NUIDocView$4$1
+ com.artifex.sonui.editor.NUIDocView$4$1$1
+ com.artifex.sonui.editor.NUIDocView$4$2
+ com.artifex.sonui.editor.NUIDocView$5
+ com.artifex.sonui.editor.NUIDocView$5$1
+ com.artifex.sonui.editor.NUIDocView$6
+ com.artifex.sonui.editor.NUIDocView$7
+ com.artifex.sonui.editor.NUIDocView$8
+ com.artifex.sonui.editor.NUIDocView$9
+ com.artifex.sonui.editor.NUIDocView$ProgressCallback
+ com.artifex.sonui.editor.NUIDocView$TabData
+com/all/officereader/view/widget/OnCheckedChangeListener.java
+ com.all.officereader.view.widget.OnCheckedChangeListener
+com/all/officereader/screens/custom_view/WheelAdapter.java
+ com.all.officereader.screens.custom_view.WheelAdapter
+com/all/officereader/screens/ocr/gallery/GalleryActivity.java
+ com.all.officereader.screens.ocr.gallery.GalleryActivity
+ com.all.officereader.screens.ocr.gallery.GalleryActivity$1
+com/all/officereader/helpers/bases/animation/BaseCreative.java
+ com.all.officereader.helpers.bases.animation.BaseCreative
+com/all/officereader/screens/dialogs/DialogLoading.java
+ com.all.officereader.screens.dialogs.DialogLoading
+ com.all.officereader.screens.dialogs.DialogLoading$1
+ com.all.officereader.screens.dialogs.DialogLoading$LoadingDialog
+ com.all.officereader.screens.dialogs.DialogLoading$LoadingDialog$1
+ com.all.officereader.screens.dialogs.DialogLoading$LoadingDialog$1$1
+com/all/officereader/screens/custom_view/WheelView.java
+ com.all.officereader.screens.custom_view.WheelView
+ com.all.officereader.screens.custom_view.WheelView$1
+ com.all.officereader.screens.custom_view.WheelView$2
+com/all/officereader/screens/ocr/PreviewFragment.java
+ com.all.officereader.screens.ocr.PreviewFragment
+ com.all.officereader.screens.ocr.PreviewFragment$1
+ com.all.officereader.screens.ocr.PreviewFragment$2
+ com.all.officereader.screens.ocr.PreviewFragment$3
+com/all/officereader/screens/ocr/PreviewAdapter.java
+ com.all.officereader.screens.ocr.PreviewAdapter
+ com.all.officereader.screens.ocr.PreviewAdapter$FileHolder
+com/all/officereader/screens/activities/DocxEditorActivity.java
+ com.all.officereader.screens.activities.DocxEditorActivity
+com/all/officereader/screens/ocr/general/ControlUtils.java
+ com.all.officereader.screens.ocr.general.ControlUtils
+ com.all.officereader.screens.ocr.general.ControlUtils$1
+ com.all.officereader.screens.ocr.general.ControlUtils$2
+com/all/officereader/screens/custom_view/WheelRecycle.java
+ com.all.officereader.screens.custom_view.WheelRecycle
+com/all/officereader/helpers/controllers/RemoveAdsController.java
+ com.all.officereader.helpers.controllers.RemoveAdsController
+ com.all.officereader.helpers.controllers.RemoveAdsController$OnAdsStatusListener
+com/all/officereader/helpers/utils/PreferencesUtils.java
+ com.all.officereader.helpers.utils.PreferencesUtils
+com/all/officereader/helpers/receivers/ConnectInternetReceiver.java
+ com.all.officereader.helpers.receivers.ConnectInternetReceiver
+ com.all.officereader.helpers.receivers.ConnectInternetReceiver$ConnectInternetReceiverListener
+com/artifex/sonui/editor/NUIDocViewPpt.java
+ com.artifex.sonui.editor.NUIDocViewPpt
+ com.artifex.sonui.editor.NUIDocViewPpt$1
+ com.artifex.sonui.editor.NUIDocViewPpt$2
+ com.artifex.sonui.editor.NUIDocViewPpt$3
+com/all/officereader/BuildConfig.java
+ com.all.officereader.BuildConfig
+com/all/officereader/helpers/utils/AppUtil.java
+ com.all.officereader.helpers.utils.AppUtil
+com/all/officereader/screens/fragments/FileReaderPdfFragment.java
+ com.all.officereader.screens.fragments.FileReaderPdfFragment
+ com.all.officereader.screens.fragments.FileReaderPdfFragment$1
+com/all/officereader/helpers/callbacks/DrawableClickListener.java
+ com.all.officereader.helpers.callbacks.DrawableClickListener
+ com.all.officereader.helpers.callbacks.DrawableClickListener$DrawablePosition
+com/all/officereader/helpers/utils/Constant.java
+ com.all.officereader.helpers.utils.Constant
+com/all/officereader/helpers/utils/SystemUtil.java
+ com.all.officereader.helpers.utils.SystemUtil
+ com.all.officereader.helpers.utils.SystemUtil$1
+com/artifex/sonui/MainApp.java
+ com.artifex.sonui.MainApp
+com/all/officereader/helpers/utils/Utility.java
+ com.all.officereader.helpers.utils.Utility
+com/all/officereader/adapter/MoreAppAdapter.java
+ com.all.officereader.adapter.MoreAppAdapter
+ com.all.officereader.adapter.MoreAppAdapter$MoreApp
+ com.all.officereader.adapter.MoreAppAdapter$moreAppAdapterListener
+com/all/officereader/helpers/bubblenavigation/listener/BubbleNavigationChangeListener.java
+ com.all.officereader.helpers.bubblenavigation.listener.BubbleNavigationChangeListener
+com/all/officereader/screens/fragments/FileReaderPptFragment.java
+ com.all.officereader.screens.fragments.FileReaderPptFragment
+ com.all.officereader.screens.fragments.FileReaderPptFragment$1
+com/all/officereader/screens/custom_view/OnWheelClickedListener.java
+ com.all.officereader.screens.custom_view.OnWheelClickedListener
+com/artifex/sonui/FileBrowser.java
+ com.artifex.sonui.FileBrowser
+ com.artifex.sonui.FileBrowser$1
+ com.artifex.sonui.FileBrowser$2
+ com.artifex.sonui.FileBrowser$3
+ com.artifex.sonui.FileBrowser$4
+ com.artifex.sonui.FileBrowser$5
+ com.artifex.sonui.FileBrowser$5$1
+ com.artifex.sonui.FileBrowser$5$1$1
+com/all/officereader/screens/dialogs/ScanFileSuccessDialog.java
+ com.all.officereader.screens.dialogs.ScanFileSuccessDialog
+ com.all.officereader.screens.dialogs.ScanFileSuccessDialog$1
+ com.all.officereader.screens.dialogs.ScanFileSuccessDialog$scanFileSuccessListener
+com/all/officereader/adapter/FileAdsFragmentAdapter.java
+ com.all.officereader.adapter.FileAdsFragmentAdapter
+ com.all.officereader.adapter.FileAdsFragmentAdapter$1
+ com.all.officereader.adapter.FileAdsFragmentAdapter$FileViewHolder
+ com.all.officereader.adapter.FileAdsFragmentAdapter$fileAdsFragmentAdapterListener
+com/all/officereader/screens/ocr/view/StickerView.java
+ com.all.officereader.screens.ocr.view.StickerView
+ com.all.officereader.screens.ocr.view.StickerView$OperationListener
+com/all/officereader/helpers/bases/BaseFragment.java
+ com.all.officereader.helpers.bases.BaseFragment
+com/all/officereader/helpers/utils/StorageUtils.java
+ com.all.officereader.helpers.utils.StorageUtils
+com/all/officereader/screens/ocr/model/ImageFolder.java
+ com.all.officereader.screens.ocr.model.ImageFolder
+com/all/officereader/helpers/bubblenavigation/BubbleNavigationLinearView.java
+ com.all.officereader.helpers.bubblenavigation.BubbleNavigationLinearView
+ com.all.officereader.helpers.bubblenavigation.BubbleNavigationLinearView$1
+com/all/officereader/helpers/callbacks/DialogSelectionListener.java
+ com.all.officereader.helpers.callbacks.DialogSelectionListener
+com/all/officereader/helpers/bases/animation/MoveAnimation.java
+ com.all.officereader.helpers.bases.animation.MoveAnimation
+ com.all.officereader.helpers.bases.animation.MoveAnimation$1
+ com.all.officereader.helpers.bases.animation.MoveAnimation$2
+ com.all.officereader.helpers.bases.animation.MoveAnimation$3
+ com.all.officereader.helpers.bases.animation.MoveAnimation$4
+android/supportv1/v7/appcompat/R.java
+ android.supportv1.v7.appcompat.R
+ android.supportv1.v7.appcompat.R$anim
+ android.supportv1.v7.appcompat.R$attr
+ android.supportv1.v7.appcompat.R$bool
+ android.supportv1.v7.appcompat.R$color
+ android.supportv1.v7.appcompat.R$dimen
+ android.supportv1.v7.appcompat.R$drawable
+ android.supportv1.v7.appcompat.R$id
+ android.supportv1.v7.appcompat.R$integer
+ android.supportv1.v7.appcompat.R$layout
+ android.supportv1.v7.appcompat.R$string
+ android.supportv1.v7.appcompat.R$style
+ android.supportv1.v7.appcompat.R$styleable
+com/all/officereader/screens/ocr/CameraActivity.java
+ com.all.officereader.screens.ocr.CameraActivity
+ com.all.officereader.screens.ocr.CameraActivity$1
+com/all/officereader/screens/fragments/FileReaderAllFragment.java
+ com.all.officereader.screens.fragments.FileReaderAllFragment
+ com.all.officereader.screens.fragments.FileReaderAllFragment$1
+com/all/officereader/adapter/CreateFileAdapter.java
+ com.all.officereader.adapter.CreateFileAdapter
+ com.all.officereader.adapter.CreateFileAdapter$FileViewHolder
+ com.all.officereader.adapter.CreateFileAdapter$NativeBannerAdViewHolder
+ com.all.officereader.adapter.CreateFileAdapter$onItemClickAssetListener
+com/all/officereader/screens/ocr/FilterAdapter.java
+ com.all.officereader.screens.ocr.FilterAdapter
+ com.all.officereader.screens.ocr.FilterAdapter$1
+ com.all.officereader.screens.ocr.FilterAdapter$FileHolder
+ com.all.officereader.screens.ocr.FilterAdapter$onClickItem
+com/all/officereader/screens/activities/CreateFileActivity.java
+ com.all.officereader.screens.activities.CreateFileActivity
+com/all/officereader/screens/activities/SplashActivity.java
+ com.all.officereader.screens.activities.SplashActivity
+ com.all.officereader.screens.activities.SplashActivity$1
+com/all/officereader/adapter/BookmarkAdapter.java
+ com.all.officereader.adapter.BookmarkAdapter
+ com.all.officereader.adapter.BookmarkAdapter$FileViewHolder
+com/all/officereader/adapter/FileManagerAdapter.java
+ com.all.officereader.adapter.FileManagerAdapter
+ com.all.officereader.adapter.FileManagerAdapter$VideoHolder
+ com.all.officereader.adapter.FileManagerAdapter$onFileManagerAdapterInterface
+com/all/officereader/helpers/rating/BaseRating.java
+ com.all.officereader.helpers.rating.BaseRating
+ com.all.officereader.helpers.rating.BaseRating$Coordinate
+ com.all.officereader.helpers.rating.BaseRating$Eye
+ com.all.officereader.helpers.rating.BaseRating$Eye$EyeSide
+ com.all.officereader.helpers.rating.BaseRating$EyeEmotion
+ com.all.officereader.helpers.rating.BaseRating$Line
+ com.all.officereader.helpers.rating.BaseRating$Point
+ com.all.officereader.helpers.rating.BaseRating$Smile
+ com.all.officereader.helpers.rating.BaseRating$Smile$Mode
+ com.all.officereader.helpers.rating.BaseRating$Smile$Side
+ com.all.officereader.helpers.rating.BaseRating$Smiley
+ com.all.officereader.helpers.rating.BaseRating$Smileys
+com/all/officereader/helpers/utils/AnimationUtil.java
+ com.all.officereader.helpers.utils.AnimationUtil
+ com.all.officereader.helpers.utils.AnimationUtil$1
+ com.all.officereader.helpers.utils.AnimationUtil$2
+ com.all.officereader.helpers.utils.AnimationUtil$3
+ com.all.officereader.helpers.utils.AnimationUtil$4
+com/all/officereader/helpers/bubblenavigation/BubbleToggleView.java
+ com.all.officereader.helpers.bubblenavigation.BubbleToggleView
+ com.all.officereader.helpers.bubblenavigation.BubbleToggleView$1
+ com.all.officereader.helpers.bubblenavigation.BubbleToggleView$2
+com/all/officereader/screens/ocr/model/CameraModel.java
+ com.all.officereader.screens.ocr.model.CameraModel
+com/all/officereader/screens/ocr/model/PictureFacer.java
+ com.all.officereader.screens.ocr.model.PictureFacer
+com/all/officereader/screens/dialogs/EnableInternetDialog.java
+ com.all.officereader.screens.dialogs.EnableInternetDialog
+ com.all.officereader.screens.dialogs.EnableInternetDialog$enableInternetListener
+com/all/officereader/helpers/bubblenavigation/BubbleNavigationConstraintView.java
+ com.all.officereader.helpers.bubblenavigation.BubbleNavigationConstraintView
+ com.all.officereader.helpers.bubblenavigation.BubbleNavigationConstraintView$1
+ com.all.officereader.helpers.bubblenavigation.BubbleNavigationConstraintView$2
+ com.all.officereader.helpers.bubblenavigation.BubbleNavigationConstraintView$DisplayMode
+com/all/officereader/helpers/callbacks/IOnEditTextChange.java
+ com.all.officereader.helpers.callbacks.IOnEditTextChange
+kankan/wheel/widget/apps/b.java
+ kankan.wheel.widget.apps.b
+com/all/officereader/helpers/callbacks/IOnPageChange.java
+ com.all.officereader.helpers.callbacks.IOnPageChange
+com/all/officereader/helpers/callbacks/NotifyItemChecked.java
+ com.all.officereader.helpers.callbacks.NotifyItemChecked
+com/all/officereader/screens/custom_view/OnWheelChangedListener.java
+ com.all.officereader.screens.custom_view.OnWheelChangedListener
+com/all/officereader/adapter/FileReaderPagerAdapter.java
+ com.all.officereader.adapter.FileReaderPagerAdapter
+com/all/officereader/screens/ocr/fragments/TabOCRFragment.java
+ com.all.officereader.screens.ocr.fragments.TabOCRFragment
+com/all/officereader/helpers/bubblenavigation/util/ViewUtils.java
+ com.all.officereader.helpers.bubblenavigation.util.ViewUtils
+com/artifex/sonui/editor/DocPageView.java
+ com.artifex.sonui.editor.DocPageView
+ com.artifex.sonui.editor.DocPageView$1
+ com.artifex.sonui.editor.DocPageView$2
+ com.artifex.sonui.editor.DocPageView$ExternalLinkListener
+com/all/officereader/helpers/utils/FileUtility.java
+ com.all.officereader.helpers.utils.FileUtility
+ com.all.officereader.helpers.utils.FileUtility$1
+com/all/officereader/screens/ocr/BitmapExtKt.java
+ com.all.officereader.screens.ocr.BitmapExtKt
+com/all/officereader/screens/ocr/gallery/FolderAdapter.java
+ com.all.officereader.screens.ocr.gallery.FolderAdapter
+ com.all.officereader.screens.ocr.gallery.FolderAdapter$1
+ com.all.officereader.screens.ocr.gallery.FolderAdapter$FileHolder
+ com.all.officereader.screens.ocr.gallery.FolderAdapter$onClickItem
+com/all/officereader/screens/fragments/CreateNewFileFragment.java
+ com.all.officereader.screens.fragments.CreateNewFileFragment
+ com.all.officereader.screens.fragments.CreateNewFileFragment$1
+com/all/officereader/screens/activities/IntroductionActivity.java
+ com.all.officereader.screens.activities.IntroductionActivity
+ com.all.officereader.screens.activities.IntroductionActivity$1
+com/all/officereader/helpers/utils/ToastUtil.java
+ com.all.officereader.helpers.utils.ToastUtil
+kankan/wheel/widget/apps/c.java
+ kankan.wheel.widget.apps.c
+com/all/officereader/screens/fragments/FileReaderExcelFragment.java
+ com.all.officereader.screens.fragments.FileReaderExcelFragment
+ com.all.officereader.screens.fragments.FileReaderExcelFragment$1
+com/all/officereader/helpers/callbacks/changeDataFileListener.java
+ com.all.officereader.helpers.callbacks.changeDataFileListener
+com/all/officereader/helpers/rating/SmileRating.java
+ com.all.officereader.helpers.rating.SmileRating
+ com.all.officereader.helpers.rating.SmileRating$1
+ com.all.officereader.helpers.rating.SmileRating$ClickAnalyser
+ com.all.officereader.helpers.rating.SmileRating$Face
+ com.all.officereader.helpers.rating.SmileRating$OnRatingSelectedListener
+ com.all.officereader.helpers.rating.SmileRating$OnSmileySelectionListener
+com/all/officereader/helpers/utils/WebUtil.java
+ com.all.officereader.helpers.utils.WebUtil
+com/all/officereader/popup/CreateFilesPopup.java
+ com.all.officereader.popup.CreateFilesPopup
+ com.all.officereader.popup.CreateFilesPopup$1
+com/all/officereader/screens/ocr/GalleryPagerAdapter.java
+ com.all.officereader.screens.ocr.GalleryPagerAdapter
+com/all/officereader/model/FileListItem.java
+ com.all.officereader.model.FileListItem
+com/all/officereader/screens/fragments/FileReaderDocFragment.java
+ com.all.officereader.screens.fragments.FileReaderDocFragment
+ com.all.officereader.screens.fragments.FileReaderDocFragment$1
+com/all/officereader/screens/ocr/gallery/GalleryAdapter.java
+ com.all.officereader.screens.ocr.gallery.GalleryAdapter
+ com.all.officereader.screens.ocr.gallery.GalleryAdapter$1
+ com.all.officereader.screens.ocr.gallery.GalleryAdapter$FileHolder
+ com.all.officereader.screens.ocr.gallery.GalleryAdapter$onClickItem
+com/all/officereader/view/widget/MaterialCheckbox.java
+ com.all.officereader.view.widget.MaterialCheckbox
+ com.all.officereader.view.widget.MaterialCheckbox$1
+com/all/officereader/screens/activities/SavePathActivity.java
+ com.all.officereader.screens.activities.SavePathActivity
+com/all/officereader/screens/fragments/RecentFragment.java
+ com.all.officereader.screens.fragments.RecentFragment
+ com.all.officereader.screens.fragments.RecentFragment$1
+com/artifex/sonui/editor/EditFont.java
+ com.artifex.sonui.editor.EditFont
+ com.artifex.sonui.editor.EditFont$1
+ com.artifex.sonui.editor.EditFont$2
+ com.artifex.sonui.editor.EditFont$3
+com/all/officereader/screens/activities/ViewEditorActivity.java
+ com.all.officereader.screens.activities.ViewEditorActivity
+ com.all.officereader.screens.activities.ViewEditorActivity$1
+ com.all.officereader.screens.activities.ViewEditorActivity$2
+com/all/officereader/screens/activities/MainActivity.java
+ com.all.officereader.screens.activities.MainActivity
+ com.all.officereader.screens.activities.MainActivity$1
+ com.all.officereader.screens.activities.MainActivity$2
+ com.all.officereader.screens.activities.MainActivity$2$1
+ com.all.officereader.screens.activities.MainActivity$3
+ com.all.officereader.screens.activities.MainActivity$4
+ com.all.officereader.screens.activities.MainActivity$5
+com/all/officereader/screens/fragments/BookmarkFragment.java
+ com.all.officereader.screens.fragments.BookmarkFragment
+ com.all.officereader.screens.fragments.BookmarkFragment$1
+com/all/officereader/helpers/utils/ExtensionFilter.java
+ com.all.officereader.helpers.utils.ExtensionFilter
+com/all/officereader/screens/custom_view/ItemsRange.java
+ com.all.officereader.screens.custom_view.ItemsRange
+com/all/officereader/screens/fragments/FileManagerFragment.java
+ com.all.officereader.screens.fragments.FileManagerFragment
+ com.all.officereader.screens.fragments.FileManagerFragment$fileManagerFragmentListener
+com/all/officereader/helpers/bases/NewBaseFragment.java
+ com.all.officereader.helpers.bases.NewBaseFragment
+com/artifex/sonui/editor/InkColorDialog.java
+ com.artifex.sonui.editor.InkColorDialog
+ com.artifex.sonui.editor.InkColorDialog$1
+ com.artifex.sonui.editor.InkColorDialog$2
+ com.artifex.sonui.editor.InkColorDialog$ColorChangedListener
+kankan/wheel/widget/WheelView.java
+ kankan.wheel.widget.WheelView
+ kankan.wheel.widget.WheelView$1
+ kankan.wheel.widget.WheelView$2
+com/all/officereader/helpers/bases/animation/AlphaAnimator.java
+ com.all.officereader.helpers.bases.animation.AlphaAnimator
+ com.all.officereader.helpers.bases.animation.AlphaAnimator$1
+ com.all.officereader.helpers.bases.animation.AlphaAnimator$2
+ com.all.officereader.helpers.bases.animation.AlphaAnimator$3
+ com.all.officereader.helpers.bases.animation.AlphaAnimator$4
+ com.all.officereader.helpers.bases.animation.AlphaAnimator$5
+com/artifex/sonui/editor/NUIDocViewXls.java
+ com.artifex.sonui.editor.NUIDocViewXls
+ com.artifex.sonui.editor.NUIDocViewXls$1
+ com.artifex.sonui.editor.NUIDocViewXls$10
+ com.artifex.sonui.editor.NUIDocViewXls$11
+ com.artifex.sonui.editor.NUIDocViewXls$12
+ com.artifex.sonui.editor.NUIDocViewXls$13
+ com.artifex.sonui.editor.NUIDocViewXls$14
+ com.artifex.sonui.editor.NUIDocViewXls$15
+ com.artifex.sonui.editor.NUIDocViewXls$16
+ com.artifex.sonui.editor.NUIDocViewXls$17
+ com.artifex.sonui.editor.NUIDocViewXls$18
+ com.artifex.sonui.editor.NUIDocViewXls$18$1
+ com.artifex.sonui.editor.NUIDocViewXls$19
+ com.artifex.sonui.editor.NUIDocViewXls$2
+ com.artifex.sonui.editor.NUIDocViewXls$20
+ com.artifex.sonui.editor.NUIDocViewXls$21
+ com.artifex.sonui.editor.NUIDocViewXls$22
+ com.artifex.sonui.editor.NUIDocViewXls$3
+ com.artifex.sonui.editor.NUIDocViewXls$4
+ com.artifex.sonui.editor.NUIDocViewXls$5
+ com.artifex.sonui.editor.NUIDocViewXls$6
+ com.artifex.sonui.editor.NUIDocViewXls$7
+ com.artifex.sonui.editor.NUIDocViewXls$8
+ com.artifex.sonui.editor.NUIDocViewXls$9
+com/artifex/sonui/editor/NUIDocViewDoc.java
+ com.artifex.sonui.editor.NUIDocViewDoc
+ com.artifex.sonui.editor.NUIDocViewDoc$1
+ com.artifex.sonui.editor.NUIDocViewDoc$2

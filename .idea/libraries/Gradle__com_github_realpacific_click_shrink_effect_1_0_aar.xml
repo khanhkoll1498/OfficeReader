@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.realpacific:click-shrink-effect:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7502a680ec42927d02dba45dd8e32adc/jetified-click-shrink-effect-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7502a680ec42927d02dba45dd8e32adc/jetified-click-shrink-effect-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7502a680ec42927d02dba45dd8e32adc/jetified-click-shrink-effect-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.realpacific/click-shrink-effect/1.0/aba3c78116406049fe67cb5af578baaa8add35b1/click-shrink-effect-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

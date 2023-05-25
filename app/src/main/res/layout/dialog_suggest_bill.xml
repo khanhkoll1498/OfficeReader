@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_dialog_question_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/colorWhite_ffffff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_dialog_suggest_bill_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_7sdp"
+            android:text="@string/dialog_suggest_bill_title"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack_1F4B6E"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:id="@+id/txv_dialog_suggest_bill_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/dialog_suggest_bill_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp" />
+
+        <Button
+            android:id="@+id/btn_dialog_suggest_bill_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorWordSelectedBorder_2392FF"
+            android:text="@string/suggest_ok"
+            android:textColor="@color/colorWhite_ffffff"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

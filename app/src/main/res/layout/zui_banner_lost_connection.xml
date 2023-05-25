@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@color/zui_banner_lost_connection_background_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/zui_color_white_100" android:layout_gravity="center_vertical" android:id="@id/zui_lost_connection_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginBottom="@dimen/_5sdp" android:text="@string/zui_label_reconnecting" android:layout_marginStart="@dimen/_10sdp" />
+    <android.supportv1.design.button.MaterialButton android:textColor="@color/zui_banner_lost_connection_text_color" android:layout_gravity="end" android:id="@id/zui_lost_connection_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_10sdp" android:text="@string/zui_label_retry_now" android:layout_marginEnd="@dimen/_10sdp" app:rippleColor="@color/zui_banner_lost_connection_text_color" style="@style/Widget.MaterialComponents.Button.TextButton" />
+</FrameLayout>
