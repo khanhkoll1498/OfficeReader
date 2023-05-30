@@ -1,10 +1,22 @@
 package com.artifex.sonui.editor;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.os.Build;
+import android.supportv1.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.View;
+import android.widget.ListPopupWindow;
 import android.widget.PopupWindow;
 
+import com.all.officereader.adapter.FontAdapter;
+import com.all.officereader.helpers.utils.FontItem;
+import com.all.officereader.helpers.utils.Utilities2;
 import com.artifex.solib.SODoc;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 import kankan.wheel.widget.WheelView;
 import kankan.wheel.widget.apps.c;
@@ -16,6 +28,8 @@ public class EditFont {
     private static WheelView wheelView;
     private static WheelView wheelView1;
     private static SODoc e;
+    private static final List<FontItem> list = new ArrayList<>();
+
 
     private static float a(String str) {
         return (float) Integer.parseInt(str.substring(0, str.length() - 3));
@@ -122,6 +136,112 @@ public class EditFont {
             }
         });
         nUIPopupWindow.showAsDropDown(view, 30, 30);
+    }
+
+    public static void showFontSize(Context context, View view, SODoc sODoc) {
+        EditFont.e = sODoc;
+        a(context);
+        ListPopupWindow popupWindowFontName = new ListPopupWindow(context);
+        popupWindowFontName.setBackgroundDrawable(ContextCompat.getDrawable(context, com.all.officereader.R.drawable.sodk_editor_menu_popup));
+        popupWindowFontName.setModal(true);
+        popupWindowFontName.setAnchorView(view);
+        double fontSize = sODoc.getSelectionFontSize();
+        @SuppressLint("DefaultLocale") String fontCurrent = String.format("%d",(int) fontSize);
+        list.clear();
+        for (String var5 : f1447b) {
+            list.add(new FontItem(var5, false));
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            list.forEach(fontItem -> {
+                if (Objects.equals(fontCurrent, fontItem.getText())){
+                    Log.d("for_fontName", "fontCurrent: " + fontCurrent + " ,fontItem: " + fontItem.getText());
+                    fontItem.setSelected(true);
+                }
+            });
+        }
+        final FontAdapter var2 = new FontAdapter(context, list);
+        popupWindowFontName.setAdapter(var2);
+        popupWindowFontName.setOnItemClickListener((var1, var2x, var3, var4) -> {
+            updateFontSize(var3);
+            popupWindowFontName.dismiss();
+        });
+
+        popupWindowFontName.setContentWidth(150);
+        popupWindowFontName.setHeight(800);
+        popupWindowFontName.show();
+        popupWindowFontName.getListView().setVerticalScrollBarEnabled(true);
+        popupWindowFontName.getListView().setVerticalScrollbarPosition(View.SCROLLBAR_POSITION_RIGHT);
+//        EditFont.sODoc = sODoc;
+//        ListPopupWindow popupWindow = new ListPopupWindow(((Activity) context));
+//        popupWindow.setBackgroundDrawable(ContextCompat.getDrawable(context, com.all.officereader.R.drawable.sodk_editor_menu_popup));
+//        popupWindow.setModal(true);
+//        popupWindow.setAnchorView(view);
+//
+//        final ArrayAdapter var2 = new ArrayAdapter(context, com.all.officereader.R.layout.sodk_editor_menu_popup_item);
+//        popupWindow.setAdapter((ListAdapter) var2);
+////        NUIDocView.TabData[] var7 = this.getTabData();
+//
+//        for (String var5 : f1447b) {
+//            var2.add(var5);
+//            ((SOTextView) ((Activity) context).getLayoutInflater().inflate(com.all.officereader.R.layout.sodk_editor_menu_popup_item, (ViewGroup) null)).setText(var5.split(" pt")[0]);
+//        }
+//
+//
+//        popupWindow.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            public void onItemClick(AdapterView<?> var1, View var2x, int var3, long var4) {
+//                updateFontSize(var3);
+//                popupWindow.dismiss();
+//            }
+//        });
+//
+//        popupWindow.setContentWidth(a(context, var2));
+//        popupWindow.setHeight(800);
+//
+//        popupWindow.show();
+//        popupWindow.getListView().setVerticalScrollBarEnabled(true);
+//        popupWindow.getListView().setVerticalScrollbarPosition(View.SCROLLBAR_POSITION_RIGHT);
+    }
+
+    public static void showFontName(Context context, View view, SODoc doc) {
+        EditFont.e = doc;
+        a(context);
+        ListPopupWindow popupWindowFontName = new ListPopupWindow(context);
+        popupWindowFontName.setBackgroundDrawable(ContextCompat.getDrawable(context, com.all.officereader.R.drawable.sodk_editor_menu_popup));
+        popupWindowFontName.setModal(true);
+        popupWindowFontName.setAnchorView(view);
+        String fontCurrent = Utilities2.getSelectionFontName(e);
+        list.clear();
+        for (String var5 : e.getFontList().split(",")) {
+            list.add(new FontItem(var5, false));
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            list.forEach(fontItem -> {
+                if (Objects.equals(fontCurrent, fontItem.getText())){
+                    Log.d("for_fontName", "fontCurrent: " + fontCurrent + " ,fontItem: " + fontItem.getText());
+                    fontItem.setSelected(true);
+                }
+            });
+        }
+        final FontAdapter var2 = new FontAdapter(context, list);
+        popupWindowFontName.setAdapter(var2);
+        popupWindowFontName.setOnItemClickListener((var1, var2x, var3, var4) -> {
+            updateFontStyle(var3);
+            popupWindowFontName.dismiss();
+        });
+
+        popupWindowFontName.setContentWidth(450);
+        popupWindowFontName.setHeight(800);
+        popupWindowFontName.show();
+        popupWindowFontName.getListView().setVerticalScrollBarEnabled(true);
+        popupWindowFontName.getListView().setVerticalScrollbarPosition(View.SCROLLBAR_POSITION_RIGHT);
+    }
+
+    public static void updateFontStyle(int index) {
+        e.setSelectionFontName(f1446a[index]);
+    }
+
+    public static void updateFontSize(int index) {
+        e.setSelectionFontSize((double) a(f1447b[index]));
     }
 
 }

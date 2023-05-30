@@ -3578,6 +3578,7 @@ int drawable bg_round_word 0x7f0800f7
 int drawable bg_round_word_2 0x7f0800f8
 int drawable bg_round_yellow 0x7f0800f9
 int drawable bg_rounded_ads 0x7f0800fa
+int drawable bg_select_font_1 0x7f080326
 int drawable bg_selected_tab_home 0x7f0800fb
 int drawable bg_send 0x7f0800fc
 int drawable bg_stroke_btn_ads 0x7f0800fd
@@ -4309,6 +4310,7 @@ int id belvedere_selectable_view_checkbox 0x7f0a00a9
 int id blocking 0x7f0a00aa
 int id body 0x7f0a00ab
 int id bold_button 0x7f0a00ac
+int id border 0x7f0a058c
 int id bottom 0x7f0a00ad
 int id bottom_sheet 0x7f0a00ae
 int id bottom_to_top 0x7f0a00af
@@ -4826,6 +4828,7 @@ int id list_item_selectable 0x7f0a02ae
 int id list_item_static_click_area 0x7f0a02af
 int id list_item_static_image 0x7f0a02b0
 int id list_numbers_button 0x7f0a02b1
+int id ll_font 0x7f0a058b
 int id ll_native_content 0x7f0a02b2
 int id ln_back_filter 0x7f0a02b3
 int id ln_banner 0x7f0a02b4
@@ -5319,6 +5322,7 @@ int id templates_sub_panel 0x7f0a049b
 int id test_checkbox_android_button_tint 0x7f0a049c
 int id test_checkbox_app_button_tint 0x7f0a049d
 int id text 0x7f0a049e
+int id text1 0x7f0a058d
 int id text2 0x7f0a049f
 int id textEnd 0x7f0a04a0
 int id textSpacerNoButtons 0x7f0a04a1
@@ -5829,6 +5833,7 @@ int layout sodk_editor_document 0x7f0d00d6
 int layout sodk_editor_drag_handle 0x7f0d00d7
 int layout sodk_editor_edit_font 0x7f0d00d8
 int layout sodk_editor_edit_toolbar 0x7f0d00d9
+int layout sodk_editor_edit_toolbar_new 0x7f0d0147
 int layout sodk_editor_excel_document 0x7f0d00da
 int layout sodk_editor_excel_edit_toolbar 0x7f0d00db
 int layout sodk_editor_excel_insert_toolbar 0x7f0d00dc
@@ -5844,6 +5849,7 @@ int layout sodk_editor_insert_toolbar 0x7f0d00e5
 int layout sodk_editor_line_type_item 0x7f0d00e6
 int layout sodk_editor_line_width_dialog 0x7f0d00e7
 int layout sodk_editor_line_width_item 0x7f0d00e8
+int layout sodk_editor_menu_popup_font_item 0x7f0d0148
 int layout sodk_editor_menu_popup_item 0x7f0d00e9
 int layout sodk_editor_number_format_accounting 0x7f0d00ea
 int layout sodk_editor_number_format_currency 0x7f0d00eb

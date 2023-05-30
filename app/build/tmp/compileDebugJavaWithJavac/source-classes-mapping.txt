@@ -58,6 +58,8 @@ com/all/officereader/screens/ocr/MyViewPagerAdapter.java
  com.all.officereader.screens.ocr.MyViewPagerAdapter$MyHolder
 com/artifex/sonui/editor/NUIDocViewOther.java
  com.artifex.sonui.editor.NUIDocViewOther
+com/all/officereader/helpers/utils/FontItem.java
+ com.all.officereader.helpers.utils.FontItem
 com/all/officereader/helpers/bases/animation/TranslateAnimator.java
  com.all.officereader.helpers.bases.animation.TranslateAnimator
 com/all/officereader/helpers/utils/ScreenUtils.java
@@ -66,6 +68,23 @@ com/all/officereader/screens/custom_view/WheelViewAdapter.java
  com.all.officereader.screens.custom_view.WheelViewAdapter
 com/all/officereader/helpers/provider/GenericFileProvider.java
  com.all.officereader.helpers.provider.GenericFileProvider
+com/all/officereader/helpers/utils/Utilities2.java
+ com.all.officereader.helpers.utils.Utilities2
+ com.all.officereader.helpers.utils.Utilities2$1
+ com.all.officereader.helpers.utils.Utilities2$2
+ com.all.officereader.helpers.utils.Utilities2$3
+ com.all.officereader.helpers.utils.Utilities2$4
+ com.all.officereader.helpers.utils.Utilities2$5
+ com.all.officereader.helpers.utils.Utilities2$5$1
+ com.all.officereader.helpers.utils.Utilities2$6
+ com.all.officereader.helpers.utils.Utilities2$6$1
+ com.all.officereader.helpers.utils.Utilities2$7
+ com.all.officereader.helpers.utils.Utilities2$7$1
+ com.all.officereader.helpers.utils.Utilities2$8
+ com.all.officereader.helpers.utils.Utilities2$8$1
+ com.all.officereader.helpers.utils.Utilities2$8$2
+ com.all.officereader.helpers.utils.Utilities2$SigningFactoryListener
+ com.all.officereader.helpers.utils.Utilities2$passwordDialogListener
 com/all/officereader/helpers/rating/RateStarDialog.java
  com.all.officereader.helpers.rating.RateStarDialog
 com/all/officereader/screens/dialogs/LoadingRewardDialog.java
@@ -238,8 +257,31 @@ com/all/officereader/screens/ocr/PreviewFragment.java
 com/all/officereader/screens/ocr/PreviewAdapter.java
  com.all.officereader.screens.ocr.PreviewAdapter
  com.all.officereader.screens.ocr.PreviewAdapter$FileHolder
-com/all/officereader/screens/activities/DocxEditorActivity.java
- com.all.officereader.screens.activities.DocxEditorActivity
+com/artifex/sonui/editor/NUIDocViewXls.java
+ com.artifex.sonui.editor.NUIDocViewXls
+ com.artifex.sonui.editor.NUIDocViewXls$1
+ com.artifex.sonui.editor.NUIDocViewXls$10
+ com.artifex.sonui.editor.NUIDocViewXls$11
+ com.artifex.sonui.editor.NUIDocViewXls$12
+ com.artifex.sonui.editor.NUIDocViewXls$13
+ com.artifex.sonui.editor.NUIDocViewXls$14
+ com.artifex.sonui.editor.NUIDocViewXls$15
+ com.artifex.sonui.editor.NUIDocViewXls$16
+ com.artifex.sonui.editor.NUIDocViewXls$17
+ com.artifex.sonui.editor.NUIDocViewXls$18
+ com.artifex.sonui.editor.NUIDocViewXls$18$1
+ com.artifex.sonui.editor.NUIDocViewXls$19
+ com.artifex.sonui.editor.NUIDocViewXls$2
+ com.artifex.sonui.editor.NUIDocViewXls$20
+ com.artifex.sonui.editor.NUIDocViewXls$21
+ com.artifex.sonui.editor.NUIDocViewXls$22
+ com.artifex.sonui.editor.NUIDocViewXls$3
+ com.artifex.sonui.editor.NUIDocViewXls$4
+ com.artifex.sonui.editor.NUIDocViewXls$5
+ com.artifex.sonui.editor.NUIDocViewXls$6
+ com.artifex.sonui.editor.NUIDocViewXls$7
+ com.artifex.sonui.editor.NUIDocViewXls$8
+ com.artifex.sonui.editor.NUIDocViewXls$9
 com/all/officereader/screens/ocr/general/ControlUtils.java
  com.all.officereader.screens.ocr.general.ControlUtils
  com.all.officereader.screens.ocr.general.ControlUtils$1
@@ -362,6 +404,8 @@ com/all/officereader/screens/activities/CreateFileActivity.java
 com/all/officereader/screens/activities/SplashActivity.java
  com.all.officereader.screens.activities.SplashActivity
  com.all.officereader.screens.activities.SplashActivity$1
+com/all/officereader/adapter/FontAdapter.java
+ com.all.officereader.adapter.FontAdapter
 com/all/officereader/adapter/BookmarkAdapter.java
  com.all.officereader.adapter.BookmarkAdapter
  com.all.officereader.adapter.BookmarkAdapter$FileViewHolder
@@ -392,8 +436,10 @@ com/all/officereader/helpers/bubblenavigation/BubbleToggleView.java
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView$1
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView$2
-com/all/officereader/screens/ocr/model/CameraModel.java
- com.all.officereader.screens.ocr.model.CameraModel
+com/artifex/sonui/editor/NUIDocViewDoc.java
+ com.artifex.sonui.editor.NUIDocViewDoc
+ com.artifex.sonui.editor.NUIDocViewDoc$1
+ com.artifex.sonui.editor.NUIDocViewDoc$2
 com/all/officereader/screens/ocr/model/PictureFacer.java
  com.all.officereader.screens.ocr.model.PictureFacer
 com/all/officereader/screens/dialogs/EnableInternetDialog.java
@@ -527,32 +573,5 @@ com/all/officereader/helpers/bases/animation/AlphaAnimator.java
  com.all.officereader.helpers.bases.animation.AlphaAnimator$3
  com.all.officereader.helpers.bases.animation.AlphaAnimator$4
  com.all.officereader.helpers.bases.animation.AlphaAnimator$5
-com/artifex/sonui/editor/NUIDocViewXls.java
- com.artifex.sonui.editor.NUIDocViewXls
- com.artifex.sonui.editor.NUIDocViewXls$1
- com.artifex.sonui.editor.NUIDocViewXls$10
- com.artifex.sonui.editor.NUIDocViewXls$11
- com.artifex.sonui.editor.NUIDocViewXls$12
- com.artifex.sonui.editor.NUIDocViewXls$13
- com.artifex.sonui.editor.NUIDocViewXls$14
- com.artifex.sonui.editor.NUIDocViewXls$15
- com.artifex.sonui.editor.NUIDocViewXls$16
- com.artifex.sonui.editor.NUIDocViewXls$17
- com.artifex.sonui.editor.NUIDocViewXls$18
- com.artifex.sonui.editor.NUIDocViewXls$18$1
- com.artifex.sonui.editor.NUIDocViewXls$19
- com.artifex.sonui.editor.NUIDocViewXls$2
- com.artifex.sonui.editor.NUIDocViewXls$20
- com.artifex.sonui.editor.NUIDocViewXls$21
- com.artifex.sonui.editor.NUIDocViewXls$22
- com.artifex.sonui.editor.NUIDocViewXls$3
- com.artifex.sonui.editor.NUIDocViewXls$4
- com.artifex.sonui.editor.NUIDocViewXls$5
- com.artifex.sonui.editor.NUIDocViewXls$6
- com.artifex.sonui.editor.NUIDocViewXls$7
- com.artifex.sonui.editor.NUIDocViewXls$8
- com.artifex.sonui.editor.NUIDocViewXls$9
-com/artifex/sonui/editor/NUIDocViewDoc.java
- com.artifex.sonui.editor.NUIDocViewDoc
- com.artifex.sonui.editor.NUIDocViewDoc$1
- com.artifex.sonui.editor.NUIDocViewDoc$2
+com/all/officereader/screens/ocr/model/CameraModel.java
+ com.all.officereader.screens.ocr.model.CameraModel

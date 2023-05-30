@@ -2497,7 +2497,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             }
 
             if (var1 == this.C) {
-                this.onTapFontName(var1);
+                this.onTapFontSize(var1);
             }
 
             if (var1 == this.F) {
@@ -2632,6 +2632,10 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             }
 
         }
+    }
+
+    public void onTapFontSize(View var1) {
+        EditFont.showFontSize(this.getContext(), var1, this.mSession.getDoc());
     }
 
     public void onConfigurationChange(Configuration var1) {
@@ -3466,7 +3470,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     }
 
     public void onTapFontName(View var1) {
-        EditFont.show(this.getContext(), var1, this.getDoc());
+        EditFont.showFontName(this.getContext(), var1, this.getDoc());
     }
 
     public void onTyping() {

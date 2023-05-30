@@ -3579,6 +3579,7 @@ drawable bg_round_word
 drawable bg_round_word_2
 drawable bg_round_yellow
 drawable bg_rounded_ads
+drawable bg_select_font_1
 drawable bg_selected_tab_home
 drawable bg_send
 drawable bg_stroke_btn_ads
@@ -4310,6 +4311,7 @@ id belvedere_selectable_view_checkbox
 id blocking
 id body
 id bold_button
+id border
 id bottom
 id bottom_sheet
 id bottom_to_top
@@ -4827,6 +4829,7 @@ id list_item_selectable
 id list_item_static_click_area
 id list_item_static_image
 id list_numbers_button
+id ll_font
 id ll_native_content
 id ln_back_filter
 id ln_banner
@@ -5320,6 +5323,7 @@ id templates_sub_panel
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
+id text1
 id text2
 id textEnd
 id textSpacerNoButtons
@@ -5830,6 +5834,7 @@ layout sodk_editor_document
 layout sodk_editor_drag_handle
 layout sodk_editor_edit_font
 layout sodk_editor_edit_toolbar
+layout sodk_editor_edit_toolbar_new
 layout sodk_editor_excel_document
 layout sodk_editor_excel_edit_toolbar
 layout sodk_editor_excel_insert_toolbar
@@ -5845,6 +5850,7 @@ layout sodk_editor_insert_toolbar
 layout sodk_editor_line_type_item
 layout sodk_editor_line_width_dialog
 layout sodk_editor_line_width_item
+layout sodk_editor_menu_popup_font_item
 layout sodk_editor_menu_popup_item
 layout sodk_editor_number_format_accounting
 layout sodk_editor_number_format_currency
