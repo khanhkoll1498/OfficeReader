@@ -8,13 +8,17 @@ import com.artifex.solib.ConfigOptions;
 import com.artifex.sonui.editor.NUIView.OnDoneListener;
 import com.artifex.sonui.editor.R.string;
 import com.artifex.sonui.editor.SODocSession.SODocSessionLoadListenerCustom;
+import com.artifex.sonui.editor.docx.NUIView2;
+import com.artifex.sonui.interfaces.SaveAndAdsListener;
 
 public class NUIActivity extends BaseActivity {
     private static SODocSession a;
     private Intent b = null;
     private long c = 0L;
     private int d = -1;
-    protected NUIView mNUIView;
+    protected NUIView2 mNUIView;
+    protected SaveAndAdsListener saveAndAdsListener;
+    protected String authority;
 
     public NUIActivity() {
     }
@@ -61,6 +65,10 @@ public class NUIActivity extends BaseActivity {
         }
     }
 
+    public NUIDocView getNUIDocView(){
+        return this.mNUIView.getNUIDocView();
+    }
+
     private void a(Intent intent, boolean z) {
         SOFileState fromString;
         String string;
@@ -73,13 +81,15 @@ public class NUIActivity extends BaseActivity {
         boolean z4 = extras != null ? extras.getBoolean("SESSION", false) : false;
         SODocSession sODocSession = a;
         setContentView(R.layout.sodk_editor_doc_view_activity);
-        NUIView nUIView = (NUIView) findViewById(R.id.doc_view);
+        NUIView2 nUIView = (NUIView2) findViewById(R.id.doc_view);
         nUIActivity.mNUIView = nUIView;
         nUIView.setOnDoneListener(new OnDoneListener() {
             public void done() {
                 NUIActivity.super.finish();
             }
         });
+        nUIView.setAuthority(authority);
+        nUIView.setListener(this.saveAndAdsListener);
         if (extras != null) {
             int i2 = extras.getInt("START_PAGE");
             fromString = SOFileState.fromString(extras.getString("STATE"), SOFileDatabase.getDatabase());

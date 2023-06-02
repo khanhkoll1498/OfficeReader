@@ -31,6 +31,9 @@ com/all/officereader/screens/ocr/PreviewPDFActivity.java
  com.all.officereader.screens.ocr.PreviewPDFActivity$1
  com.all.officereader.screens.ocr.PreviewPDFActivity$2
  com.all.officereader.screens.ocr.PreviewPDFActivity$3
+com/all/officereader/screens/activities/DocxReaderActivity.java
+ com.all.officereader.screens.activities.DocxReaderActivity
+ com.all.officereader.screens.activities.DocxReaderActivity$1
 com/artifex/sonui/ChoosePathActivity.java
  com.artifex.sonui.ChoosePathActivity
  com.artifex.sonui.ChoosePathActivity$1
@@ -144,10 +147,29 @@ com/all/officereader/screens/activities/ShowSlideActivity.java
  com.all.officereader.screens.activities.ShowSlideActivity
 com/all/officereader/screens/ocr/general/PermissionUtils.java
  com.all.officereader.screens.ocr.general.PermissionUtils
+com/artifex/sonui/editor/docx/Utilities2.java
+ com.artifex.sonui.editor.docx.Utilities2
+ com.artifex.sonui.editor.docx.Utilities2$1
+ com.artifex.sonui.editor.docx.Utilities2$2
+ com.artifex.sonui.editor.docx.Utilities2$3
+ com.artifex.sonui.editor.docx.Utilities2$4
+ com.artifex.sonui.editor.docx.Utilities2$5
+ com.artifex.sonui.editor.docx.Utilities2$5$1
+ com.artifex.sonui.editor.docx.Utilities2$6
+ com.artifex.sonui.editor.docx.Utilities2$6$1
+ com.artifex.sonui.editor.docx.Utilities2$7
+ com.artifex.sonui.editor.docx.Utilities2$7$1
+ com.artifex.sonui.editor.docx.Utilities2$8
+ com.artifex.sonui.editor.docx.Utilities2$8$1
+ com.artifex.sonui.editor.docx.Utilities2$8$2
+ com.artifex.sonui.editor.docx.Utilities2$SigningFactoryListener
+ com.artifex.sonui.editor.docx.Utilities2$passwordDialogListener
 com/all/officereader/model/DialogConfigs.java
  com.all.officereader.model.DialogConfigs
 com/all/officereader/helpers/utils/SharedPreferencesUtility.java
  com.all.officereader.helpers.utils.SharedPreferencesUtility
+com/artifex/sonui/editor/docx/SODocSession2.java
+ com.artifex.sonui.editor.docx.SODocSession2
 com/all/officereader/screens/custom_view/AbstractWheelTextAdapter.java
  com.all.officereader.screens.custom_view.AbstractWheelTextAdapter
 com/all/officereader/screens/custom_view/WheelScroller.java
@@ -218,6 +240,7 @@ com/artifex/sonui/editor/NUIDocView.java
  com.artifex.sonui.editor.NUIDocView$30
  com.artifex.sonui.editor.NUIDocView$31
  com.artifex.sonui.editor.NUIDocView$32
+ com.artifex.sonui.editor.NUIDocView$33
  com.artifex.sonui.editor.NUIDocView$4
  com.artifex.sonui.editor.NUIDocView$4$1
  com.artifex.sonui.editor.NUIDocView$4$1$1
@@ -363,6 +386,8 @@ com/all/officereader/helpers/bubblenavigation/BubbleNavigationLinearView.java
  com.all.officereader.helpers.bubblenavigation.BubbleNavigationLinearView$1
 com/all/officereader/helpers/callbacks/DialogSelectionListener.java
  com.all.officereader.helpers.callbacks.DialogSelectionListener
+com/artifex/sonui/interfaces/OnActionCallback.java
+ com.artifex.sonui.interfaces.OnActionCallback
 com/all/officereader/helpers/bases/animation/MoveAnimation.java
  com.all.officereader.helpers.bases.animation.MoveAnimation
  com.all.officereader.helpers.bases.animation.MoveAnimation$1
@@ -432,6 +457,9 @@ com/all/officereader/helpers/utils/AnimationUtil.java
  com.all.officereader.helpers.utils.AnimationUtil$2
  com.all.officereader.helpers.utils.AnimationUtil$3
  com.all.officereader.helpers.utils.AnimationUtil$4
+com/artifex/sonui/editor/docx/NUIView2.java
+ com.artifex.sonui.editor.docx.NUIView2
+ com.artifex.sonui.editor.docx.NUIView2$OnDoneListener
 com/all/officereader/helpers/bubblenavigation/BubbleToggleView.java
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView$1
@@ -575,3 +603,5 @@ com/all/officereader/helpers/bases/animation/AlphaAnimator.java
  com.all.officereader.helpers.bases.animation.AlphaAnimator$5
 com/all/officereader/screens/ocr/model/CameraModel.java
  com.all.officereader.screens.ocr.model.CameraModel
+com/artifex/sonui/interfaces/SaveAndAdsListener.java
+ com.artifex.sonui.interfaces.SaveAndAdsListener

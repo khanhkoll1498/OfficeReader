@@ -149,6 +149,8 @@ public class NUIDocViewDoc extends NUIDocView {
 
             ToolbarButton.setAllSameSize((ToolbarButton[])var1.toArray(new ToolbarButton[var1.size()]));
         }
+
+        findViewById(com.all.officereader.R.id.bt_tool).setOnClickListener(this::onTapTool);
     }
 
     public int getBorderColor() {

@@ -187,6 +187,7 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".screens.activities.DocxReaderActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"

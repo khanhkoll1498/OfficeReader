@@ -3646,6 +3646,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable donate_vector
+drawable drop_down
 drawable file_search_bg
 drawable filter_night_mode
 drawable googleg_disabled_color_18
@@ -3669,6 +3670,7 @@ drawable ic_bookmark_main
 drawable ic_bookmark_tab
 drawable ic_calendar_black_24dp
 drawable ic_cancel_main
+drawable ic_cancel_text
 drawable ic_check_white_24dp
 drawable ic_circle
 drawable ic_clear_black_24dp
@@ -3691,6 +3693,7 @@ drawable ic_donate_selected
 drawable ic_donate_white
 drawable ic_dots
 drawable ic_download
+drawable ic_drop_down2
 drawable ic_edit_black_24dp
 drawable ic_edit_ocr
 drawable ic_edit_pro
@@ -3714,6 +3717,14 @@ drawable ic_gift_main_2
 drawable ic_gift_main_selected
 drawable ic_gift_main_selected_2
 drawable ic_gift_star
+drawable ic_icon_close
+drawable ic_icon_keyboard_edit
+drawable ic_icon_left
+drawable ic_icon_redo
+drawable ic_icon_right
+drawable ic_icon_save
+drawable ic_icon_search
+drawable ic_icon_undo
 drawable ic_info_outline_black_24dp
 drawable ic_info_outline_white_24dp
 drawable ic_insert_drive_file
@@ -4334,6 +4345,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_container
+id bt_tool
 id btn_dialog_fake_full_ads__remove_ads
 id btn_dialog_feedback_send
 id btn_dialog_internet_cancel
@@ -4370,8 +4382,10 @@ id calligraphy
 id camera
 id camera1
 id camera2
+id cancelSearch
 id cancel_action
 id cancel_button
+id cancel_edit
 id category_title
 id cell_height_box
 id cell_height_down_button
@@ -4403,6 +4417,7 @@ id clamp
 id clear_text
 id clip_horizontal
 id clip_vertical
+id closeSearch
 id cloudy
 id collapseActionView
 id color_dialog_title
@@ -4481,6 +4496,7 @@ id dialog_button
 id dimensions
 id dir_path
 id direct
+id directionSearch
 id disableHome
 id disablePostScroll
 id disableScroll
@@ -4545,6 +4561,7 @@ id excel_edit_toolbar
 id excel_sheets_bar
 id exitUntilCollapsed
 id expand_activities_button
+id expand_edit_bar
 id expanded_menu
 id expires_on
 id expires_on_header
@@ -4831,6 +4848,7 @@ id list_item_static_image
 id list_numbers_button
 id ll_font
 id ll_native_content
+id ll_tool
 id ln_back_filter
 id ln_banner
 id ln_copy
@@ -4939,6 +4957,7 @@ id native_icon_view
 id nav_view
 id navigation_header_container
 id never
+id nextSearch
 id next_button
 id next_link_button
 id noScroll
@@ -4946,6 +4965,8 @@ id no_documents_found
 id no_recent_documents_found
 id none
 id normal
+id normalToolbar
+id notSearch
 id not_show
 id note_button
 id note_holder
@@ -5003,6 +5024,7 @@ id postLayout
 id ppt_format_toolbar
 id ppt_insert_toolbar
 id ppt_slides_toolbar
+id prevSearch
 id preview_copy_button
 id preview_delete_button
 id preview_file_size_icon
@@ -5173,6 +5195,7 @@ id rv_folder_image
 id rv_image
 id rv_ocr_item
 id rv_preview_scanner
+id saveEdit
 id save_as_button
 id save_button
 id save_image_matrix
@@ -5190,6 +5213,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBar
+id searchBtn
 id searchTab
 id search_badge
 id search_bar
@@ -5223,6 +5248,7 @@ id shimmer_gg_container
 id shortcut
 id showCustom
 id showHome
+id showKeyboard
 id showTitle
 id show_always
 id show_annot_button
@@ -5408,6 +5434,7 @@ id tv_skip
 id tv_storage
 id tv_submit
 id tv_template
+id tv_tool
 id tv_txt_file
 id tv_value
 id txt_item_file_manager__date
@@ -5446,6 +5473,7 @@ id txv_popup_scan_file__processbar
 id txv_popup_scan_file__title
 id unchecked
 id underline_button
+id undoOrRedo
 id undo_button
 id uniform
 id unlabeled
@@ -5467,6 +5495,8 @@ id vertical_ruler
 id video
 id view
 id viewPagerPdfViewer
+id viewSearch
+id viewToolbarEdit
 id view_article_attachment_coordinator
 id view_article_attachment_list
 id view_article_compat_shadow

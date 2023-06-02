@@ -2,15 +2,13 @@ package com.all.officereader.helpers.utils;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Environment;
 import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 
 import com.all.officereader.model.FileListItem;
-import com.all.officereader.screens.activities.MainActivity;
-import com.all.officereader.screens.activities.ViewEditorActivity;
+import com.all.officereader.screens.activities.DocxReaderActivity;
 
 import java.io.File;
 import java.text.DecimalFormat;
@@ -128,9 +126,7 @@ public class FileUtility {
             mListTxtFile.clear();
             emitter.onNext(getAllFile(mDir));
             emitter.onComplete();
-        })
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread());
+        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());
     }
 
     public static Observable searchFile(final File dir, final String text) {
@@ -143,9 +139,7 @@ public class FileUtility {
                 emitter.onNext(search(dir, text));
                 emitter.onComplete();
             }
-        })
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread());
+        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());
     }
 
     public static ArrayList<File> getAllFile(File dir) {
@@ -158,10 +152,7 @@ public class FileUtility {
 
                 } else {
                     String name = listFile[i].getName();
-                    if (name.endsWith(".docb") || name.endsWith(".docx") || name.endsWith(".doc") || name.endsWith(".dotx") ||
-                            name.endsWith(".xls") || name.endsWith(".xlsx") || name.endsWith(".xlt") || name.endsWith(".xlm") || name.endsWith(".xlsb") ||
-                            name.endsWith(".ppt") || name.endsWith(".pptx") || name.endsWith(".pdf")
-                            || name.endsWith(".txt")) {
+                    if (name.endsWith(".docb") || name.endsWith(".docx") || name.endsWith(".doc") || name.endsWith(".dotx") || name.endsWith(".xls") || name.endsWith(".xlsx") || name.endsWith(".xlt") || name.endsWith(".xlm") || name.endsWith(".xlsb") || name.endsWith(".ppt") || name.endsWith(".pptx") || name.endsWith(".pdf") || name.endsWith(".txt")) {
                         mAllFileOffice.add(listFile[i]);
 
                         if (listFile[i].getName().endsWith(".pdf")) {
@@ -173,8 +164,7 @@ public class FileUtility {
                         } else if (listFile[i].getName().endsWith(".ppt") || listFile[i].getName().endsWith(".pptx")) {
                             mPowerPointFiles.add(listFile[i]);
 
-                        } else if (listFile[i].getName().endsWith(".docb") || listFile[i].getName().endsWith(".docx")
-                                || listFile[i].getName().endsWith(".doc") || listFile[i].getName().endsWith(".dotx")) {
+                        } else if (listFile[i].getName().endsWith(".docb") || listFile[i].getName().endsWith(".docx") || listFile[i].getName().endsWith(".doc") || listFile[i].getName().endsWith(".dotx")) {
                             mWordFiles.add(listFile[i]);
 
                         } else if (listFile[i].getName().endsWith(".txt")) {
@@ -197,9 +187,7 @@ public class FileUtility {
                 } else {
                     if (listFile[i].getName().toLowerCase().contains(text.toLowerCase())) {
                         String name = listFile[i].getName();
-                        if (name.endsWith(".docb") || name.endsWith(".docx") || name.endsWith(".doc") || name.endsWith(".dotx") ||
-                                name.endsWith(".xls") || name.endsWith(".xlsx") || name.endsWith(".xlt") || name.endsWith(".xlm") || name.endsWith(".xlsb") ||
-                                name.endsWith(".ppt") || name.endsWith(".pptx") || name.endsWith(".pdf") || name.endsWith(".txt")) {
+                        if (name.endsWith(".docb") || name.endsWith(".docx") || name.endsWith(".doc") || name.endsWith(".dotx") || name.endsWith(".xls") || name.endsWith(".xlsx") || name.endsWith(".xlt") || name.endsWith(".xlm") || name.endsWith(".xlsb") || name.endsWith(".ppt") || name.endsWith(".pptx") || name.endsWith(".pdf") || name.endsWith(".txt")) {
                             mSearchFile.add(listFile[i]);
                         }
                     }
@@ -463,8 +451,7 @@ public class FileUtility {
         } else if (size >= kb) {
             float f = (float) size / kb;
             return String.format(f > 100 ? "%.0f KB" : "%.1f KB", f);
-        } else
-            return String.format("%d B", size);
+        } else return String.format("%d B", size);
     }
 
     public static void closeKeyboard(Activity activity) {
@@ -523,11 +510,12 @@ public class FileUtility {
         storageUtils.addRecent(activity, mFile);
 
         Uri fromFile = Uri.fromFile(mFile);
-        Intent intent = new Intent(activity, ViewEditorActivity.class);
-        intent.setAction("android.intent.action.VIEW");
-        intent.setData(fromFile);
-        intent.putExtra("STARTED_FROM_EXPLORER", true);
-        intent.putExtra("START_PAGE", pageNumber);
-        activity.startActivityForResult(intent, MainActivity.CODE_RESULT_BOOKMARK);
+//        Intent intent = new Intent(activity, ViewEditorActivity.class);
+//        intent.setAction("android.intent.action.VIEW");
+//        intent.setData(fromFile);
+//        intent.putExtra("STARTED_FROM_EXPLORER", true);
+//        intent.putExtra("START_PAGE", pageNumber);
+//        activity.startActivityForResult(intent, MainActivity.CODE_RESULT_BOOKMARK);
+        DocxReaderActivity.start(activity, mFile.getPath(), fromFile);
     }
 }
