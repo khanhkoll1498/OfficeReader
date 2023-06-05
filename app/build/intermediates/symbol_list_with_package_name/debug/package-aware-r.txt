@@ -4890,6 +4890,7 @@ id lotView_activity_main__search
 id lottie_layer_name
 id lv_layout_list_search_from_text__list_search
 id main_explorer_layout
+id main_topbar
 id masked
 id media_actions
 id menu
@@ -5318,6 +5319,7 @@ id surface
 id surface_view
 id surface_view_root
 id sw_pdf_view_activity__on_of_night_mode
+id switcher
 id tabMode
 id tabText
 id tab__main_activity__bookmark

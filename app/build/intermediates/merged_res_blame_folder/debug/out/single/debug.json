@@ -248,12 +248,12 @@
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\layout\\belvedere_floating_action_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_explorer_tab_bg.xml.flat",
-        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_tab_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clock.xml.flat",
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\ic_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_explorer_tab_bg.xml.flat",
+        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_tab_bg.xml"
     },
     {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_preview_panel.xml.flat",
@@ -492,12 +492,12 @@
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\layout\\item_more_app.xml"
     },
     {
-        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_back_donate.xml.flat",
-        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\bg_back_donate.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_button.xml.flat",
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_back_donate.xml.flat",
+        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\bg_back_donate.xml"
     },
     {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_appbar_state_list_animator.xml.flat",
@@ -1604,12 +1604,12 @@
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\ic_bookmark_border.xml"
     },
     {
-        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zs_request_icon_back.xml.flat",
-        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\zs_request_icon_back.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_undo.xml.flat",
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_undo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zs_request_icon_back.xml.flat",
+        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\zs_request_icon_back.xml"
     },
     {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
@@ -1880,12 +1880,12 @@
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\sodk_editor_icon_line_style.png"
     },
     {
-        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_formulas_toolbar.xml.flat",
-        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_formulas_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_select_font_1.xml.flat",
         "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\drawable\\bg_select_font_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_formulas_toolbar.xml.flat",
+        "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_formulas_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_setting_navi.png.flat",

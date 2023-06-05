@@ -79,6 +79,8 @@ import com.artifex.sonui.editor.R.layout;
 import com.artifex.sonui.editor.R.string;
 import com.artifex.sonui.editor.R.style;
 import com.artifex.sonui.editor.SODocSession.SODocSessionLoadListener;
+import com.artifex.sonui.editor.docx.InputView2;
+import com.artifex.sonui.editor.docx.SODocSession2;
 import com.artifex.sonui.interfaces.SaveAndAdsListener;
 
 import java.io.File;
@@ -126,7 +128,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     private NUIDocView.TabData[] ag = null;
     private k ah;
     private ArrayList<String> ai = new ArrayList();
-    private InputView aj = null;
+    private InputView2 aj = null;
     private View al = null;
     private int am = 0;
     private int an = 0;
@@ -178,7 +180,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     protected LinearLayout mSavePdfButton;
     protected LinearLayout mPrintButton;
 
-    protected SODocSession mSession;
+    protected SODocSession2 mSession;
     protected Uri mStartUri = null;
     protected SOFileState mState = null;
     protected ToolbarButton mStyleBoldButton;
@@ -1385,7 +1387,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                             var1.f = var1.mState;
                             NUIDocView.this.f.openFile(NUIDocView.this.T);
                             var1 = NUIDocView.this;
-                            var1.mSession = new SODocSession(var9, var1.ah);
+                            var1.mSession = new SODocSession2(var9, var1.ah);
                             NUIDocView.this.mSession.setFileState(NUIDocView.this.f);
                             NUIDocView.this.mSession.setSODocSessionLoadListener(new SODocSessionLoadListener() {
                                 public void onCancel() {
@@ -1493,7 +1495,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                             NUIDocView.this.f.openFile(NUIDocView.this.T);
                             NUIDocView.this.f.setHasChanges(false);
                             var1 = NUIDocView.this;
-                            var1.mSession = new SODocSession(var9, var1.ah);
+                            var1.mSession = new SODocSession2(var9, var1.ah);
                             NUIDocView.this.mSession.setFileState(NUIDocView.this.f);
                             NUIDocView.this.mSession.setSODocSessionLoadListener(new SODocSessionLoadListener() {
                                 public void onCancel() {
@@ -1613,7 +1615,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 
     protected void createInputView() {
         RelativeLayout var1 = (RelativeLayout) this.findViewById(id.doc_inner_container);
-        InputView var2 = new InputView(this.getContext(), this.mSession.getDoc(), this);
+        InputView2 var2 = new InputView2(this.getContext(), this.mSession.getDoc(), this);
         this.aj = var2;
         var1.addView(var2);
     }
@@ -4160,7 +4162,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.d();
     }
 
-    public void start(SODocSession var1, int var2, String var3, OnDoneListener var4) {
+    public void start(SODocSession2 var1, int var2, String var3, OnDoneListener var4) {
         this.mIsSession = true;
         this.mSession = var1;
         this.T = false;

@@ -125,6 +125,9 @@ com/all/officereader/screens/ocr/ListOCRActivity.java
  com.all.officereader.screens.ocr.ListOCRActivity
  com.all.officereader.screens.ocr.ListOCRActivity$1
  com.all.officereader.screens.ocr.ListOCRActivity$2
+com/artifex/sonui/editor/docx/InputView2.java
+ com.artifex.sonui.editor.docx.InputView2
+ com.artifex.sonui.editor.docx.InputView2$a
 com/all/officereader/screens/ocr/PageOcrAdapter.java
  com.all.officereader.screens.ocr.PageOcrAdapter
  com.all.officereader.screens.ocr.PageOcrAdapter$onCLickItem
@@ -533,6 +536,8 @@ com/all/officereader/helpers/rating/SmileRating.java
  com.all.officereader.helpers.rating.SmileRating$OnSmileySelectionListener
 com/all/officereader/helpers/utils/WebUtil.java
  com.all.officereader.helpers.utils.WebUtil
+com/artifex/sonui/editor/docx/DocViewHost2.java
+ com.artifex.sonui.editor.docx.DocViewHost2
 com/all/officereader/popup/CreateFilesPopup.java
  com.all.officereader.popup.CreateFilesPopup
  com.all.officereader.popup.CreateFilesPopup$1

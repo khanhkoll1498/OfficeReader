@@ -4889,6 +4889,7 @@ int id lotView_activity_main__search 0x7f0a02e1
 int id lottie_layer_name 0x7f0a02e2
 int id lv_layout_list_search_from_text__list_search 0x7f0a02e3
 int id main_explorer_layout 0x7f0a02e4
+int id main_topbar 0x7f0a05a1
 int id masked 0x7f0a02e5
 int id media_actions 0x7f0a02e6
 int id menu 0x7f0a02e7
@@ -5317,6 +5318,7 @@ int id surface 0x7f0a048d
 int id surface_view 0x7f0a048e
 int id surface_view_root 0x7f0a048f
 int id sw_pdf_view_activity__on_of_night_mode 0x7f0a0490
+int id switcher 0x7f0a05a2
 int id tabMode 0x7f0a0491
 int id tabText 0x7f0a0492
 int id tab__main_activity__bookmark 0x7f0a0493
