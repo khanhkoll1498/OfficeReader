@@ -1,4 +1,4 @@
-#Mon Jun 05 09:09:07 GMT+07:00 2023
+#Mon Jun 05 10:31:48 GMT+07:00 2023
 base.2=C\:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\15\\classes.dex
 base.1=C\:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\11\\classes.dex
 base.0=C\:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

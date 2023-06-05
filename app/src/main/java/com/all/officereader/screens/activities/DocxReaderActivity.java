@@ -9,7 +9,9 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ViewAnimator;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -62,13 +64,13 @@ public class DocxReaderActivity extends AppNUIActivity {
         super.onCreate(var1);
         String path = getIntent().getStringExtra("PATH");
 
-//        ImageView expand = findViewById(R.id.expand_edit_bar);
-//        ViewAnimator viewAnimator = findViewById(R.id.switcher);
+        ImageView expand = findViewById(R.id.expand_edit_bar);
+        ViewAnimator viewAnimator = findViewById(R.id.switcher);
         RelativeLayout normalToolbar = findViewById(R.id.normalToolbar);
         ConstraintLayout viewToolbarEdit = findViewById(R.id.viewToolbarEdit);
         findViewById(R.id.cancel_edit).setOnClickListener(v -> {
             normalToolbar.setVisibility(View.VISIBLE);
-//            viewAnimator.setVisibility(View.GONE);
+            viewAnimator.setVisibility(View.GONE);
             viewToolbarEdit.setVisibility(View.GONE);
         });
     }

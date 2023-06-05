@@ -4,19 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_above="@+id/ln_banner"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/ln_banner">
+        app:layout_constraintBottom_toTopOf="@id/tabhost"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
             android:background="@color/blue"
-            android:padding="@dimen/_5sdp">
+            android:padding="@dimen/_5sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <RelativeLayout
                 android:id="@+id/normalToolbar"
@@ -257,7 +260,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:gravity="end"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header">
 
             <View
                 android:id="@id/footer_lead"
@@ -269,14 +274,17 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:background="@color/color_line_office" />
+            android:background="@color/color_line_office"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/footer" />
 
         <LinearLayout
             android:id="@id/content"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1.0"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/header">
 
             <LinearLayout
                 android:layout_width="0.0dip"
@@ -334,7 +342,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
-                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
                         android:gravity="center">
 
                         <com.artifex.sonui.editor.SOTextView
@@ -361,7 +372,7 @@
                 android:paddingRight="@dimen/_5sdp"
                 android:visibility="gone" />
         </LinearLayout>
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:id="@+id/ln_banner"
