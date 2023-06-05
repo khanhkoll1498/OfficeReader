@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ln_banner"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/ln_banner">
 
         <RelativeLayout
             android:id="@+id/header"
@@ -369,14 +370,18 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:orientation="horizontal" />
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TabHost
         android:id="@id/tabhost"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/ll_tool"
-        android:layout_weight="0.0">
+        android:layout_weight="0.0"
+        app:layout_constraintBottom_toTopOf="@id/ll_tool"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:id="@id/header"
@@ -541,9 +546,11 @@
         android:id="@+id/ll_tool"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@id/switcher"
         android:background="#F2F2F2"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/switcher"
+        app:layout_constraintStart_toStartOf="parent">
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:id="@+id/bt_tool"
@@ -603,4 +610,38 @@
             android:src="@drawable/ic_drop_down2" />
     </LinearLayout>
 
-</RelativeLayout>
+    <ViewAnimator
+        android:id="@+id/switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="#F2F2F2"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/main_topbar"
+            layout="@layout/sodk_editor_edit_toolbar" />
+
+        <include
+            android:id="@+id/main_topbar"
+            layout="@layout/sodk_editor_insert_toolbar" />
+
+
+        <include
+            android:id="@+id/main_topbar"
+            layout="@layout/sodk_editor_doc_pages_toolbar" />
+
+        <include
+            android:id="@+id/main_topbar"
+            layout="@layout/sodk_editor_review_toolbar" />
+    </ViewAnimator>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
