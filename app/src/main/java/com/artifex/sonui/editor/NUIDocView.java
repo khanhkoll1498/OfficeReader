@@ -1147,7 +1147,6 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         }
 
         this.showSearchSelected(false);
-        this.searchBar = (SOEditText) this.findViewById(id.search_text_input);
         this.footer_page_text = (SOTextView) this.findViewById(id.footer_page_text);
         this.searchBar.setOnEditorActionListener(new SOEditTextOnEditorActionListener() {
             public boolean onEditorAction(SOEditText var1, int var2, KeyEvent var3) {
@@ -1218,7 +1217,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             this.p = (ToolbarButton) this.createToolbarButton(var2);
         }
 
-        this.setupTabs();
+//        this.setupTabs();
         View var4;
         if (!com.artifex.solib.k.e(this.activity()) && this.mConfigOptions.a != null) {
             var4 = (View) this.tabMap.get(this.getContext().getString(string.sodk_editor_tab_review));
