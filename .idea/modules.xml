@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocxReader.iml" filepath="$PROJECT_DIR$/.idea/modules/DocxReader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/DocxReader.ads.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DocxReader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DocxReader.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DocxReader.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DocxReader.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DocxReader.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DocxReader.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DocxReader.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DocxReader.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OfficeReader.iml" filepath="$PROJECT_DIR$/.idea/modules/OfficeReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/OfficeReader.ads.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OfficeReader.app.unitTest.iml" />
     </modules>
   </component>
 </project>

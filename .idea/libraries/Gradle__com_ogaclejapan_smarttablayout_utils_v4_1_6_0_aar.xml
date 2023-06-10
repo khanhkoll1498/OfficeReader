@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/566283adef05ef0450b029df573b05d7/jetified-utils-v4-1.6.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1febbe5d544736883d11e10a2f367d7/jetified-utils-v4-1.6.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/566283adef05ef0450b029df573b05d7/jetified-utils-v4-1.6.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/566283adef05ef0450b029df573b05d7/jetified-utils-v4-1.6.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1febbe5d544736883d11e10a2f367d7/jetified-utils-v4-1.6.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1febbe5d544736883d11e10a2f367d7/jetified-utils-v4-1.6.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ogaclejapan.smarttablayout/utils-v4/1.6.0/1e67482e25666f2a771300deefc510a5bee93230/utils-v4-1.6.0-javadoc.jar!/" />

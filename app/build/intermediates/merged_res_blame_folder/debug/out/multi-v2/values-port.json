@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "F:\\StudioProject\\OfficeReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\src\\main\\res\\values-port\\strings.xml",
+                    "source": "F:\\StudioProject\\OfficeReader\\app\\src\\main\\res\\values-port\\strings.xml",
                     "from": {
                         "startLines": "9,11,8,14,15,7,13,12,16,2,5,3,6,4,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin2\\.gradle\\caches\\transforms-2\\files-2.1\\c3edb913602f1c359d264c4687287f78\\appcompat-1.3.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\c3edb913602f1c359d264c4687287f78\\appcompat-1.3.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

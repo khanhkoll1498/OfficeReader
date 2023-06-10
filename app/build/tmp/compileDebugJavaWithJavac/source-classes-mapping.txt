@@ -462,14 +462,17 @@ com/all/officereader/helpers/utils/AnimationUtil.java
  com.all.officereader.helpers.utils.AnimationUtil$2
  com.all.officereader.helpers.utils.AnimationUtil$3
  com.all.officereader.helpers.utils.AnimationUtil$4
-com/artifex/sonui/interfaces/SaveAndAdsListener.java
- com.artifex.sonui.interfaces.SaveAndAdsListener
+com/artifex/sonui/editor/docx/NUIView2.java
+ com.artifex.sonui.editor.docx.NUIView2
+ com.artifex.sonui.editor.docx.NUIView2$OnDoneListener
 com/all/officereader/helpers/bubblenavigation/BubbleToggleView.java
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView$1
  com.all.officereader.helpers.bubblenavigation.BubbleToggleView$2
-com/all/officereader/screens/ocr/model/CameraModel.java
- com.all.officereader.screens.ocr.model.CameraModel
+com/artifex/sonui/editor/NUIDocViewDoc.java
+ com.artifex.sonui.editor.NUIDocViewDoc
+ com.artifex.sonui.editor.NUIDocViewDoc$1
+ com.artifex.sonui.editor.NUIDocViewDoc$2
 com/all/officereader/screens/ocr/model/PictureFacer.java
  com.all.officereader.screens.ocr.model.PictureFacer
 com/all/officereader/screens/dialogs/EnableInternetDialog.java
@@ -605,10 +608,7 @@ com/all/officereader/helpers/bases/animation/AlphaAnimator.java
  com.all.officereader.helpers.bases.animation.AlphaAnimator$3
  com.all.officereader.helpers.bases.animation.AlphaAnimator$4
  com.all.officereader.helpers.bases.animation.AlphaAnimator$5
-com/artifex/sonui/editor/docx/NUIView2.java
- com.artifex.sonui.editor.docx.NUIView2
- com.artifex.sonui.editor.docx.NUIView2$OnDoneListener
-com/artifex/sonui/editor/NUIDocViewDoc.java
- com.artifex.sonui.editor.NUIDocViewDoc
- com.artifex.sonui.editor.NUIDocViewDoc$1
- com.artifex.sonui.editor.NUIDocViewDoc$2
+com/all/officereader/screens/ocr/model/CameraModel.java
+ com.all.officereader.screens.ocr.model.CameraModel
+com/artifex/sonui/interfaces/SaveAndAdsListener.java
+ com.artifex.sonui.interfaces.SaveAndAdsListener

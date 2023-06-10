@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+            "outputFile": "F:\\StudioProject\\OfficeReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin2\\Downloads\\Office Reader\\DocxReader\\DocxReader\\ads\\build\\intermediates\\packaged_res\\debug\\values-mdpi-v4\\values-mdpi-v4.xml",
+                    "source": "F:\\StudioProject\\OfficeReader\\ads\\build\\intermediates\\packaged_res\\debug\\values-mdpi-v4\\values-mdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

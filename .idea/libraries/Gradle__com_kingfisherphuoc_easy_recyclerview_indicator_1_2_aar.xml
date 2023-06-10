@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.kingfisherphuoc:easy-recyclerview-indicator:1.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7053ae2a084d18c301094a786548fbef/jetified-easy-recyclerview-indicator-1.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7053ae2a084d18c301094a786548fbef/jetified-easy-recyclerview-indicator-1.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7053ae2a084d18c301094a786548fbef/jetified-easy-recyclerview-indicator-1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45f1f7c7dd1d48ddfc2b4e8c9e1ce224/jetified-easy-recyclerview-indicator-1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45f1f7c7dd1d48ddfc2b4e8c9e1ce224/jetified-easy-recyclerview-indicator-1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45f1f7c7dd1d48ddfc2b4e8c9e1ce224/jetified-easy-recyclerview-indicator-1.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kingfisherphuoc/easy-recyclerview-indicator/1.2/b14d77b9cacc3f7a5243ccfadd71d283d72df19b/easy-recyclerview-indicator-1.2-javadoc.jar!/" />

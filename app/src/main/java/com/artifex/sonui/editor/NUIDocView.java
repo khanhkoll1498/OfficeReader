@@ -55,6 +55,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewAnimator;
 
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.app.ActivityCompat;
@@ -128,10 +129,10 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     protected SODocSession2 mSession;
     protected Uri mStartUri = null;
     protected SOFileState mState = null;
-    protected ToolbarButton mStyleBoldButton;
-    protected ToolbarButton mStyleItalicButton;
-    protected ToolbarButton mStyleLinethroughButton;
-    protected ToolbarButton mStyleUnderlineButton;
+    protected AppCompatImageView mStyleBoldButton;
+    protected AppCompatImageView mStyleItalicButton;
+    protected AppCompatImageView mStyleLinethroughButton;
+    protected AppCompatImageView mStyleUnderlineButton;
     protected ImageView mUndoButton;
     protected NUIDocView.ProgressCallback progressCallBack;
     protected Map<String, View> tabMap = new HashMap();
@@ -146,10 +147,10 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     OnDoneListener a = null;
     private SOTextView footer_page_text;
     private SOTextView C;
-    private ToolbarButton D;
-    private ToolbarButton E;
-    private SOTextView F;
-    private ToolbarButton G;
+    private AppCompatImageView fontUpButton;
+    private AppCompatImageView fontDownButton;
+    private SOTextView fontNameText;
+    private AppCompatImageView fontColorButton;
     private LinearLayout H;
     private LinearLayout I;
     private LinearLayout J;
@@ -1755,20 +1756,20 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 
     protected void createEditButtons() {
         this.C = (SOTextView) this.createToolbarButton(id.font_size_text);
-        this.D = (ToolbarButton) this.createToolbarButton(id.fontup_button);
-        this.E = (ToolbarButton) this.createToolbarButton(id.fontdown_button);
-        this.F = (SOTextView) this.createToolbarButton(id.font_name_text);
-        this.G = (ToolbarButton) this.createToolbarButton(id.font_color_button);
+        this.fontUpButton = (AppCompatImageView) this.createToolbarButton(id.fontup_button);
+        this.fontDownButton = (AppCompatImageView) this.createToolbarButton(id.fontdown_button);
+        this.fontNameText = (SOTextView) this.createToolbarButton(id.font_name_text);
+        this.fontColorButton = (AppCompatImageView) this.createToolbarButton(id.font_color_button);
         this.H = (LinearLayout) this.createToolbarButton(id.font_background_button);
 
         this.I = (LinearLayout) this.createToolbarButton(id.cut_button);
         this.J = (LinearLayout) this.createToolbarButton(id.copy_button);
         this.K = (LinearLayout) this.createToolbarButton(id.paste_button);
 
-        this.mStyleBoldButton = (ToolbarButton) this.createToolbarButton(id.bold_button);
-        this.mStyleItalicButton = (ToolbarButton) this.createToolbarButton(id.italic_button);
-        this.mStyleUnderlineButton = (ToolbarButton) this.createToolbarButton(id.underline_button);
-        this.mStyleLinethroughButton = (ToolbarButton) this.createToolbarButton(id.striketrough_button);
+        this.mStyleBoldButton = (AppCompatImageView) this.createToolbarButton(id.bold_button);
+        this.mStyleItalicButton = (AppCompatImageView) this.createToolbarButton(id.italic_button);
+        this.mStyleUnderlineButton = (AppCompatImageView) this.createToolbarButton(id.underline_button);
+        this.mStyleLinethroughButton = (AppCompatImageView) this.createToolbarButton(id.striketrough_button);
     }
 
     protected void createEditButtons2() {
@@ -2717,11 +2718,11 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                 this.onProtectButton(var1);
             }
 
-            if (var1 == this.D) {
+            if (var1 == this.fontUpButton) {
                 this.onFontUpButton(var1);
             }
 
-            if (var1 == this.E) {
+            if (var1 == this.fontDownButton) {
                 this.onFontDownButton(var1);
             }
 
@@ -2729,11 +2730,11 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                 this.onTapFontSize(var1);
             }
 
-            if (var1 == this.F) {
+            if (var1 == this.fontNameText) {
                 this.onTapFontName(var1);
             }
 
-            if (var1 == this.G) {
+            if (var1 == this.fontColorButton) {
                 this.onFontColorButton(var1);
             }
 
@@ -4162,7 +4163,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                     popupWindow.dismiss();
                     return;
                 }
-//                (findViewById(com.all.officereader.R.id.ll_more_edit)).setVisibility(GONE);
+                (findViewById(com.all.officereader.R.id.ll_more_edit)).setVisibility(GONE);
 //                (findViewById(com.all.officereader.R.id.ll_more_format)).setVisibility(GONE);
 //                (findViewById(com.all.officereader.R.id.ll_more_formulas)).setVisibility(GONE);
                 ((AppCompatTextView) findViewById(com.all.officereader.R.id.tv_tool)).setText(var7[var3].name);
@@ -4181,7 +4182,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                     normalToolbar.setVisibility(GONE);
                     showKeyboard.setEnabled(true);
                     if (var3 == 1) {
-//                        (findViewById(com.all.officereader.R.id.ll_more_edit)).setVisibility(VISIBLE);
+                        (findViewById(com.all.officereader.R.id.ll_more_edit)).setVisibility(VISIBLE);
                     }
                     if (var3 == 3) {
 //                        (findViewById(com.all.officereader.R.id.ll_more_format)).setVisibility(VISIBLE);
@@ -4425,7 +4426,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         }
 
         this.mStyleBoldButton.setEnabled(var3);
-        ToolbarButton var7 = this.mStyleBoldButton;
+        AppCompatImageView var7 = this.mStyleBoldButton;
         boolean var8;
         if (var3 && var9.getSelectionIsBold()) {
             var8 = true;
@@ -4461,76 +4462,76 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         }
 
         var7.setSelected(var3);
-        this.q.setEnabled(var5);
-        var7 = this.q;
-        if (var5 && var9.getSelectionIsAlignLeft()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
+//        this.q.setEnabled(var5);
+//        var7 = this.q;
+//        if (var5 && var9.getSelectionIsAlignLeft()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
+//
+//        var7.setSelected(var3);
+//        this.r.setEnabled(var5);
+//        var7 = this.r;
+//        if (var5 && var9.getSelectionIsAlignCenter()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
+//
+//        var7.setSelected(var3);
+//        this.s.setEnabled(var5);
+//        var7 = this.s;
+//        if (var5 && var9.getSelectionIsAlignRight()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
+//
+//        var7.setSelected(var3);
+//        this.t.setEnabled(var5);
+//        var7 = this.t;
+//        if (var5 && var9.getSelectionIsAlignJustify()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
+//
+//        var7.setSelected(var3);
+//        this.mListBulletsButton.setEnabled(var5);
+//        var7 = this.mListBulletsButton;
+//        if (var5 && var9.getSelectionListStyleIsDisc()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
+//
+//        var7.setSelected(var3);
+//        this.mListNumbersButton.setEnabled(var5);
+//        var7 = this.mListNumbersButton;
+//        if (var5 && var9.getSelectionListStyleIsDecimal()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
 
-        var7.setSelected(var3);
-        this.r.setEnabled(var5);
-        var7 = this.r;
-        if (var5 && var9.getSelectionIsAlignCenter()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
-
-        var7.setSelected(var3);
-        this.s.setEnabled(var5);
-        var7 = this.s;
-        if (var5 && var9.getSelectionIsAlignRight()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
-
-        var7.setSelected(var3);
-        this.t.setEnabled(var5);
-        var7 = this.t;
-        if (var5 && var9.getSelectionIsAlignJustify()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
-
-        var7.setSelected(var3);
-        this.mListBulletsButton.setEnabled(var5);
-        var7 = this.mListBulletsButton;
-        if (var5 && var9.getSelectionListStyleIsDisc()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
-
-        var7.setSelected(var3);
-        this.mListNumbersButton.setEnabled(var5);
-        var7 = this.mListNumbersButton;
-        if (var5 && var9.getSelectionListStyleIsDecimal()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
-
-        var7.setSelected(var3);
-        ToolbarButton var10 = this.mIncreaseIndentButton;
-        if (var5 && this.o()) {
-            var3 = true;
-        } else {
-            var3 = false;
-        }
-
-        var10.setEnabled(var3);
-        var10 = this.mDecreaseIndentButton;
-        if (var5 && this.p()) {
-            var5 = var2;
-        } else {
-            var5 = false;
-        }
-
-        var10.setEnabled(var5);
+//        var7.setSelected(var3);
+//        ToolbarButton var10 = this.mIncreaseIndentButton;
+//        if (var5 && this.o()) {
+//            var3 = true;
+//        } else {
+//            var3 = false;
+//        }
+//
+//        var10.setEnabled(var3);
+//        var10 = this.mDecreaseIndentButton;
+//        if (var5 && this.p()) {
+//            var5 = var2;
+//        } else {
+//            var5 = false;
+//        }
+//
+//        var10.setEnabled(var5);
     }
 
     protected void updateInsertUIAppearance() {
@@ -4628,7 +4629,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                 var3 = false;
             }
 
-            this.F.setEnabled(var3);
+            this.fontNameText.setEnabled(var3);
             this.C.setEnabled(var3);
             long var7 = Math.round(this.mSession.getDoc().getSelectionFontSize());
             SOTextView var9 = this.C;
@@ -4640,9 +4641,9 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             }
 
             var9.setText(var11);
-            ToolbarButton var12;
+            AppCompatImageView var12;
             if (var3) {
-                var12 = this.D;
+                var12 = this.fontUpButton;
                 boolean var10;
                 if (var7 < 72L) {
                     var10 = true;
@@ -4651,7 +4652,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                 }
 
                 var12.setEnabled(var10);
-                var12 = this.E;
+                var12 = this.fontDownButton;
                 if (var7 > 6L) {
                     var10 = true;
                 } else {
@@ -4660,13 +4661,13 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 
                 var12.setEnabled(var10);
             } else {
-                this.D.setEnabled(false);
-                this.E.setEnabled(false);
+                this.fontUpButton.setEnabled(false);
+                this.fontDownButton.setEnabled(false);
             }
 
             var11 = Utilities.getSelectionFontName(this.mSession.getDoc());
-            this.F.setText(var11);
-            this.G.setEnabled(var3);
+            this.fontNameText.setText(var11);
+            this.fontColorButton.setEnabled(var3);
             this.H.setEnabled(var3);
             if (var4 && this.mSession.getDoc().getSelectionCanBeDeleted()) {
                 var3 = true;

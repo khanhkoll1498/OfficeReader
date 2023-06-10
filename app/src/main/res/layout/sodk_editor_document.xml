@@ -645,7 +645,6 @@
             android:id="@+id/main_topbar"
             layout="@layout/sodk_editor_insert_toolbar" />
 
-
         <include
             android:id="@+id/main_topbar"
             layout="@layout/sodk_editor_doc_pages_toolbar" />

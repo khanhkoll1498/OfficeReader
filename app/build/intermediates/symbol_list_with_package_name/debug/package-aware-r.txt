@@ -3512,6 +3512,7 @@ drawable belvedere_toolbar_shadow
 drawable bg_ads_button
 drawable bg_back_donate
 drawable bg_back_edit_file
+drawable bg_bold
 drawable bg_border_ads
 drawable bg_border_bottom
 drawable bg_border_cancel
@@ -3552,6 +3553,7 @@ drawable bg_intro
 drawable bg_intro_one
 drawable bg_intro_three
 drawable bg_intro_two
+drawable bg_italic
 drawable bg_item_rcv
 drawable bg_item_rcv_file
 drawable bg_main_donate
@@ -3585,6 +3587,7 @@ drawable bg_send
 drawable bg_stroke_btn_ads
 drawable bg_submit_intro
 drawable bg_top_rate_app
+drawable bg_underline
 drawable bg_unselected_home
 drawable bg_update_version_shape
 drawable bg_view_ads
@@ -3711,6 +3714,7 @@ drawable ic_floating_selected
 drawable ic_folder_black_24dp
 drawable ic_folder_item
 drawable ic_folder_open_black_24dp
+drawable ic_format_color_text
 drawable ic_gift_download
 drawable ic_gift_main
 drawable ic_gift_main_2
@@ -3718,6 +3722,7 @@ drawable ic_gift_main_selected
 drawable ic_gift_main_selected_2
 drawable ic_gift_star
 drawable ic_icon_close
+drawable ic_icon_color
 drawable ic_icon_keyboard_edit
 drawable ic_icon_left
 drawable ic_icon_redo
@@ -3794,6 +3799,7 @@ drawable icon_button_favorite
 drawable icon_button_search
 drawable icon_button_settings_view_pdf
 drawable icon_cancel
+drawable icon_paste
 drawable icon_pause
 drawable icon_pdf
 drawable icon_play
@@ -4049,8 +4055,14 @@ drawable sodk_explorer_template_selector
 drawable sodk_file_browser_bg
 drawable sodk_iap_buy_button_bg
 drawable sodk_iap_upgrade_button_bg
+drawable sodk_ic_icon_bold
+drawable sodk_ic_icon_bold_selected
+drawable sodk_ic_icon_italic
+drawable sodk_ic_icon_italic_selected
 drawable sodk_ic_icon_lock
 drawable sodk_ic_icon_nui_close
+drawable sodk_ic_icon_underline
+drawable sodk_ic_icon_underline_selected
 drawable sodk_icon_back
 drawable sodk_icon_delete_doc
 drawable sodk_icon_duplicate_doc
@@ -4847,6 +4859,7 @@ id list_item_static_click_area
 id list_item_static_image
 id list_numbers_button
 id ll_font
+id ll_more_edit
 id ll_native_content
 id ll_tool
 id ln_back_filter

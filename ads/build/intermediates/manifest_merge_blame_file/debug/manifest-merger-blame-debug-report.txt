@@ -4,19 +4,19 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="16"
-6-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml
+6-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="30" />
-7-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml
+7-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.INTERNET" />
-9-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml:4:5-67
-9-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml:4:22-64
+9-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml:4:5-67
+9-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml:4:22-64
 10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-10-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml:5:5-79
-10-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml:5:22-76
+10-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml:5:5-79
+10-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml:5:22-76
 11
 12    <application>
-12-->C:\Users\Admin2\Downloads\Office Reader\DocxReader\DocxReader\ads\src\main\AndroidManifest.xml:6:5-7:19
+12-->F:\StudioProject\OfficeReader\ads\src\main\AndroidManifest.xml:6:5-7:19
 13    </application>
 14
 15</manifest>

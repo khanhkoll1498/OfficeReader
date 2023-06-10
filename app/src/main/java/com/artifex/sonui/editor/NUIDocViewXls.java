@@ -29,6 +29,9 @@ import android.widget.ListAdapter;
 import android.widget.ListPopupWindow;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.PopupWindow.OnDismissListener;
+
+import androidx.appcompat.widget.AppCompatImageView;
+
 import com.artifex.solib.SODoc;
 import com.artifex.solib.SOSelectionLimits;
 import com.artifex.solib.SOSelectionTableRange;
@@ -1177,7 +1180,7 @@ public class NUIDocViewXls extends NUIDocView {
 
         SODoc var8 = this.mSession.getDoc();
         this.mStyleBoldButton.setEnabled(var6);
-        ToolbarButton var7 = this.mStyleBoldButton;
+        AppCompatImageView var7 = this.mStyleBoldButton;
         if (var6 && var8.getSelectionIsBold()) {
             var4 = true;
         } else {

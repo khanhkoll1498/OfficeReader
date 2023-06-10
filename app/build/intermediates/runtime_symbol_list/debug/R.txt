@@ -3511,6 +3511,7 @@ int drawable belvedere_toolbar_shadow 0x7f0800b4
 int drawable bg_ads_button 0x7f0800b5
 int drawable bg_back_donate 0x7f0800b6
 int drawable bg_back_edit_file 0x7f0800b7
+int drawable bg_bold 0x7f080332
 int drawable bg_border_ads 0x7f0800b8
 int drawable bg_border_bottom 0x7f0800b9
 int drawable bg_border_cancel 0x7f0800ba
@@ -3551,6 +3552,7 @@ int drawable bg_intro 0x7f0800dc
 int drawable bg_intro_one 0x7f0800dd
 int drawable bg_intro_three 0x7f0800de
 int drawable bg_intro_two 0x7f0800df
+int drawable bg_italic 0x7f080333
 int drawable bg_item_rcv 0x7f0800e0
 int drawable bg_item_rcv_file 0x7f0800e1
 int drawable bg_main_donate 0x7f0800e2
@@ -3584,6 +3586,7 @@ int drawable bg_send 0x7f0800fd
 int drawable bg_stroke_btn_ads 0x7f0800fe
 int drawable bg_submit_intro 0x7f0800ff
 int drawable bg_top_rate_app 0x7f080100
+int drawable bg_underline 0x7f080334
 int drawable bg_unselected_home 0x7f080101
 int drawable bg_update_version_shape 0x7f080102
 int drawable bg_view_ads 0x7f080103
@@ -3710,6 +3713,7 @@ int drawable ic_floating_selected 0x7f08017b
 int drawable ic_folder_black_24dp 0x7f08017c
 int drawable ic_folder_item 0x7f08017d
 int drawable ic_folder_open_black_24dp 0x7f08017e
+int drawable ic_format_color_text 0x7f080335
 int drawable ic_gift_download 0x7f08017f
 int drawable ic_gift_main 0x7f080180
 int drawable ic_gift_main_2 0x7f080181
@@ -3717,6 +3721,7 @@ int drawable ic_gift_main_selected 0x7f080182
 int drawable ic_gift_main_selected_2 0x7f080183
 int drawable ic_gift_star 0x7f080184
 int drawable ic_icon_close 0x7f080185
+int drawable ic_icon_color 0x7f080336
 int drawable ic_icon_keyboard_edit 0x7f080186
 int drawable ic_icon_left 0x7f080187
 int drawable ic_icon_redo 0x7f080188
@@ -3793,6 +3798,7 @@ int drawable icon_button_favorite 0x7f0801ce
 int drawable icon_button_search 0x7f0801cf
 int drawable icon_button_settings_view_pdf 0x7f0801d0
 int drawable icon_cancel 0x7f0801d1
+int drawable icon_paste 0x7f080337
 int drawable icon_pause 0x7f0801d2
 int drawable icon_pdf 0x7f0801d3
 int drawable icon_play 0x7f0801d4
@@ -4048,8 +4054,14 @@ int drawable sodk_explorer_template_selector 0x7f0802cd
 int drawable sodk_file_browser_bg 0x7f0802ce
 int drawable sodk_iap_buy_button_bg 0x7f0802cf
 int drawable sodk_iap_upgrade_button_bg 0x7f0802d0
+int drawable sodk_ic_icon_bold 0x7f080338
+int drawable sodk_ic_icon_bold_selected 0x7f080339
+int drawable sodk_ic_icon_italic 0x7f08033a
+int drawable sodk_ic_icon_italic_selected 0x7f08033b
 int drawable sodk_ic_icon_lock 0x7f0802d1
 int drawable sodk_ic_icon_nui_close 0x7f0802d2
+int drawable sodk_ic_icon_underline 0x7f08033c
+int drawable sodk_ic_icon_underline_selected 0x7f08033d
 int drawable sodk_icon_back 0x7f0802d3
 int drawable sodk_icon_delete_doc 0x7f0802d4
 int drawable sodk_icon_duplicate_doc 0x7f0802d5
@@ -4846,6 +4858,7 @@ int id list_item_static_click_area 0x7f0a02b6
 int id list_item_static_image 0x7f0a02b7
 int id list_numbers_button 0x7f0a02b8
 int id ll_font 0x7f0a02b9
+int id ll_more_edit 0x7f0a05a3
 int id ll_native_content 0x7f0a02ba
 int id ll_tool 0x7f0a02bb
 int id ln_back_filter 0x7f0a02bc
