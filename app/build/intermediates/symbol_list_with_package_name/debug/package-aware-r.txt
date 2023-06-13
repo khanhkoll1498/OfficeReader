@@ -4331,6 +4331,7 @@ id belvedere_dialog_row_text
 id belvedere_fam_item_documents
 id belvedere_fam_item_google_photos
 id belvedere_selectable_view_checkbox
+id big_layout
 id blocking
 id body
 id bold_button
@@ -4440,6 +4441,7 @@ id contact_us_button
 id container
 id content
 id contentPanel
+id continueEdit
 id control_copy
 id control_delete
 id control_logout
@@ -4559,6 +4561,7 @@ id edt_activity_main__search2
 id edt_dialog_rate_feedback_title
 id edt_item_ocr
 id edt_layout_search_in_pdf_view__search_text
+id edt_name
 id edt_name_file
 id email_button
 id email_text
@@ -5370,6 +5373,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textTitle
 id textViewPdfGeneratingHolder
 id textViewPdfViewerPageNumber
 id textViewPreviewPDFNotSupported
@@ -5424,6 +5428,7 @@ id tv_bookmark
 id tv_cancel
 id tv_cancel_update
 id tv_confirm
+id tv_done
 id tv_empty
 id tv_finish
 id tv_home_act
@@ -5758,6 +5763,7 @@ layout dialog_new_update
 layout dialog_rate_app
 layout dialog_rate_app_main
 layout dialog_rate_feedback
+layout dialog_save_edit
 layout dialog_scan_file_success
 layout dialog_signature
 layout dialog_suggest_bill
@@ -6155,6 +6161,7 @@ string cameraview_filter_sharpness
 string cameraview_filter_temperature
 string cameraview_filter_tint
 string cameraview_filter_vignette
+string cancel
 string cancel_button_label
 string cancel_dialog
 string cannot_reg_text
@@ -6805,6 +6812,7 @@ string tab_storage
 string tap_to_refresh
 string template
 string template_create
+string text_dialog_unsave
 string text_error_content
 string text_error_title
 string text_generating_pdf
@@ -6830,6 +6838,7 @@ string try_again
 string tutorial
 string tx_0
 string txt
+string unsaved_changes
 string update
 string update_app
 string update_nav

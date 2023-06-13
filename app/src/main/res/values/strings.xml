@@ -792,4 +792,7 @@ CHANGES"</string>
     <string name="show_slide">Show Slide</string>
     <string name="new_file">New File</string>
     <string name="template">Template</string>
+    <string name="unsaved_changes">Unsaved changes</string>
+    <string name="text_dialog_unsave">Continue editing or discard all changes?</string>
+    <string name="cancel">Cancel</string>
 </resources>

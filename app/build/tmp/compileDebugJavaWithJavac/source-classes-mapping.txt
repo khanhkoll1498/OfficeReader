@@ -265,6 +265,8 @@ com/all/officereader/screens/custom_view/WheelAdapter.java
 com/all/officereader/screens/ocr/gallery/GalleryActivity.java
  com.all.officereader.screens.ocr.gallery.GalleryActivity
  com.all.officereader.screens.ocr.gallery.GalleryActivity$1
+com/artifex/sonui/NUIPopupWindow.java
+ com.artifex.sonui.NUIPopupWindow
 com/all/officereader/helpers/bases/animation/BaseCreative.java
  com.all.officereader.helpers.bases.animation.BaseCreative
 com/all/officereader/screens/dialogs/DialogLoading.java
@@ -359,6 +361,10 @@ com/all/officereader/screens/fragments/FileReaderPptFragment.java
  com.all.officereader.screens.fragments.FileReaderPptFragment$1
 com/all/officereader/screens/custom_view/OnWheelClickedListener.java
  com.all.officereader.screens.custom_view.OnWheelClickedListener
+com/artifex/sonui/color/ColorDialogCp.java
+ com.artifex.sonui.color.ColorDialogCp
+ com.artifex.sonui.color.ColorDialogCp$1
+ com.artifex.sonui.color.ColorDialogCp$2
 com/artifex/sonui/FileBrowser.java
  com.artifex.sonui.FileBrowser
  com.artifex.sonui.FileBrowser$1
@@ -368,6 +374,8 @@ com/artifex/sonui/FileBrowser.java
  com.artifex.sonui.FileBrowser$5
  com.artifex.sonui.FileBrowser$5$1
  com.artifex.sonui.FileBrowser$5$1$1
+com/artifex/sonui/dialog/SaveEditDialog.java
+ com.artifex.sonui.dialog.SaveEditDialog
 com/all/officereader/screens/dialogs/ScanFileSuccessDialog.java
  com.all.officereader.screens.dialogs.ScanFileSuccessDialog
  com.all.officereader.screens.dialogs.ScanFileSuccessDialog$1

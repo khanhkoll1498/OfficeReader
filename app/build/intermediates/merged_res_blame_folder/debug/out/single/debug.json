@@ -3288,6 +3288,10 @@
         "source": "F:\\StudioProject\\OfficeReader\\app\\src\\main\\res\\layout\\sodk_certificate_item.xml"
     },
     {
+        "merged": "F:\\StudioProject\\OfficeReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_save_edit.xml.flat",
+        "source": "F:\\StudioProject\\OfficeReader\\app\\src\\main\\res\\layout\\dialog_save_edit.xml"
+    },
+    {
         "merged": "F:\\StudioProject\\OfficeReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_file_manager_main.png.flat",
         "source": "F:\\StudioProject\\OfficeReader\\app\\src\\main\\res\\drawable-xhdpi\\ic_file_manager_main.png"
     },

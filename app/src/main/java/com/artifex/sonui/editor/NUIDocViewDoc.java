@@ -115,45 +115,27 @@ public class NUIDocViewDoc extends NUIDocView {
 
     }
 
-//    public NUIDocView.TabData[] getTabData() {
-//        if (this.D == null) {
-//            this.D = new NUIDocView.TabData[5];
-//            if (this.mConfigOptions.c()) {
-//                NUIDocView.TabData[] tabDataArr = this.D;
-//                NUIDocView.TabData tabData = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_file), R.id.fileTab, R.layout.sodk_editor_tab_left, 0);
-//                tabDataArr[0] = tabData;
-//                NUIDocView.TabData[] tabDataArr2 = this.D;
-//                NUIDocView.TabData tabData2 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_edit), R.id.editTab, R.layout.sodk_editor_tab, 0);
-//                tabDataArr2[1] = tabData2;
-//                NUIDocView.TabData[] tabDataArr3 = this.D;
-//                NUIDocView.TabData tabData3 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_insert), R.id.insertTab, R.layout.sodk_editor_tab, 0);
-//                tabDataArr3[2] = tabData3;
-//                NUIDocView.TabData[] tabDataArr4 = this.D;
-//                NUIDocView.TabData tabData4 = new NUIDocView.TabData(getContext().getString(string.sodk_editor_tab_pages), id.pagesTab, R.layout.sodk_editor_tab, 0);
-//                tabDataArr4[3] = tabData4;
-//                NUIDocView.TabData[] tabDataArr5 = this.D;
-//                NUIDocView.TabData tabData5 = new NUIDocView.TabData(getContext().getString(string.sodk_editor_tab_review), id.reviewTab, R.layout.sodk_editor_tab_right, 0);
-//                tabDataArr5[4] = tabData5;
-//            } else {
-//                NUIDocView.TabData[] tabDataArr6 = this.D;
-//                NUIDocView.TabData tabData6 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_file), R.id.fileTab, R.layout.sodk_editor_tab_one, 0);
-//                tabDataArr6[0] = tabData6;
-//                NUIDocView.TabData[] tabDataArr7 = this.D;
-//                NUIDocView.TabData tabData7 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_edit), R.id.editTab, R.layout.sodk_editor_tab, 8);
-//                tabDataArr7[1] = tabData7;
-//                NUIDocView.TabData[] tabDataArr8 = this.D;
-//                NUIDocView.TabData tabData8 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_insert), R.id.insertTab, R.layout.sodk_editor_tab, 8);
-//                tabDataArr8[2] = tabData8;
-//                NUIDocView.TabData[] tabDataArr9 = this.D;
-//                NUIDocView.TabData tabData9 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_pages), R.id.pagesTab, R.layout.sodk_editor_tab, 8);
-//                tabDataArr9[3] = tabData9;
-//                NUIDocView.TabData[] tabDataArr10 = this.D;
-//                NUIDocView.TabData tabData10 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_review), R.id.reviewTab, R.layout.sodk_editor_tab_right, 8);
-//                tabDataArr10[4] = tabData10;
-//            }
-//        }
-//        return this.D;
-//    }
+    public NUIDocView.TabData[] getTabData() {
+        if (this.D == null) {
+            this.D = new NUIDocView.TabData[2];
+            if (this.mConfigOptions.c()) {
+                NUIDocView.TabData[] tabDataArr = this.D;
+                NUIDocView.TabData tabData = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_file), R.id.fileTab, R.layout.sodk_editor_tab_left, 0);
+                tabDataArr[0] = tabData;
+                NUIDocView.TabData[] tabDataArr2 = this.D;
+                NUIDocView.TabData tabData2 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_edit), R.id.editTab, R.layout.sodk_editor_tab, 0);
+                tabDataArr2[1] = tabData2;
+            } else {
+                NUIDocView.TabData[] tabDataArr6 = this.D;
+                NUIDocView.TabData tabData6 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_file), R.id.fileTab, R.layout.sodk_editor_tab_one, 0);
+                tabDataArr6[0] = tabData6;
+                NUIDocView.TabData[] tabDataArr7 = this.D;
+                NUIDocView.TabData tabData7 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_edit), R.id.editTab, R.layout.sodk_editor_tab, 8);
+                tabDataArr7[1] = tabData7;
+            }
+        }
+        return this.D;
+    }
 
     protected void createReviewButtons() {
         if (this.mConfigOptions.c()) {

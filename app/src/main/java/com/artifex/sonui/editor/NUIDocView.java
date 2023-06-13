@@ -70,6 +70,7 @@ import com.artifex.solib.SOSelectionLimits;
 import com.artifex.solib.j;
 import com.artifex.solib.k;
 import com.artifex.solib.p;
+import com.artifex.sonui.color.ColorDialogCp;
 import com.artifex.sonui.editor.AuthorDialog.AuthorDialogListener;
 import com.artifex.sonui.editor.NUIView.OnDoneListener;
 import com.artifex.sonui.editor.R.color;
@@ -151,7 +152,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     private AppCompatImageView fontDownButton;
     private SOTextView fontNameText;
     private AppCompatImageView fontColorButton;
-    private LinearLayout H;
+    private LinearLayout fontBGButton;
     private LinearLayout I;
     private LinearLayout J;
     private LinearLayout K;
@@ -191,7 +192,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     private boolean c = false;
     private boolean d = true;
     private Boolean e;
-    private SOFileState f;
+    private SOFileState soFileState;
     private SOFileDatabase g;
     private ProgressDialog h;
     private DocView i;
@@ -214,7 +215,6 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     private ImageView prevSearch;
     private String authority;
     private String filePath;
-    private SOFileState soFileState;
     private ImageView expandEditBar;
     private ImageView saveEdit;
 
@@ -397,7 +397,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                     String var1x;
                     boolean var10001;
                     try {
-                        var1x = NUIDocView.this.f.getUserPath();
+                        var1x = NUIDocView.this.soFileState.getUserPath();
                     } catch (UnsupportedOperationException var7) {
                         var10001 = false;
                         return;
@@ -406,7 +406,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                     String var2 = var1x;
                     if (var1x == null) {
                         try {
-                            var2 = NUIDocView.this.f.getOpenedPath();
+                            var2 = NUIDocView.this.soFileState.getOpenedPath();
                         } catch (UnsupportedOperationException var6) {
                             var10001 = false;
                             return;
@@ -422,7 +422,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                             public void onComplete(int var1x, String var2) {
                                 if (var1x == 0) {
                                     NUIDocView.this.setFooterText(var2);
-                                    NUIDocView.this.f.setUserPath(var2);
+                                    NUIDocView.this.soFileState.setUserPath(var2);
                                     if (var1) {
                                         NUIDocView.this.prefinish();
                                     }
@@ -431,14 +431,14 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                                         return;
                                     }
 
-                                    NUIDocView.this.f.setHasChanges(false);
+                                    NUIDocView.this.soFileState.setHasChanges(false);
                                     NUIDocView.this.onSelectionChanged();
                                     NUIDocView.this.reloadFile();
                                 } else {
-                                    NUIDocView.this.f.setUserPath((String) null);
+                                    NUIDocView.this.soFileState.setUserPath((String) null);
                                 }
 
-                                NUIDocView.this.T = NUIDocView.this.f.isTemplate();
+                                NUIDocView.this.T = NUIDocView.this.soFileState.isTemplate();
                             }
                         };
                         var9.saveAsHandler(var1x, var3, var4);
@@ -1323,13 +1323,13 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 
                     NUIDocView.this.i();
                     var1 = NUIDocView.this;
-                    var1.f = var1.g.stateForPath(NUIDocView.this.l, NUIDocView.this.T);
-                    NUIDocView.this.f.setForeignData(NUIDocView.this.U);
-                    NUIDocView.this.mSession.setFileState(NUIDocView.this.f);
-                    NUIDocView.this.f.openFile(NUIDocView.this.T);
-                    NUIDocView.this.f.setHasChanges(false);
+                    var1.soFileState = var1.g.stateForPath(NUIDocView.this.l, NUIDocView.this.T);
+                    NUIDocView.this.soFileState.setForeignData(NUIDocView.this.U);
+                    NUIDocView.this.mSession.setFileState(NUIDocView.this.soFileState);
+                    NUIDocView.this.soFileState.openFile(NUIDocView.this.T);
+                    NUIDocView.this.soFileState.setHasChanges(false);
                     var1 = NUIDocView.this;
-                    var1.setFooterText(var1.f.getUserPath());
+                    var1.setFooterText(var1.soFileState.getUserPath());
                     NUIDocView.this.i.setDoc(NUIDocView.this.mSession.getDoc());
                     if (NUIDocView.this.usePagesView()) {
                         NUIDocView.this.j.setDoc(NUIDocView.this.mSession.getDoc());
@@ -1392,11 +1392,11 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                             var1.setFooterText(var1.mState.getUserPath());
                             NUIDocView.this.i();
                             var1 = NUIDocView.this;
-                            var1.f = var1.mState;
-                            NUIDocView.this.f.openFile(NUIDocView.this.T);
+                            var1.soFileState = var1.mState;
+                            NUIDocView.this.soFileState.openFile(NUIDocView.this.T);
                             var1 = NUIDocView.this;
                             var1.mSession = new SODocSession2(var9, var1.ah);
-                            NUIDocView.this.mSession.setFileState(NUIDocView.this.f);
+                            NUIDocView.this.mSession.setFileState(NUIDocView.this.soFileState);
                             NUIDocView.this.mSession.setSODocSessionLoadListener(new SODocSessionLoadListener() {
                                 public void onCancel() {
                                     NUIDocView.this.j();
@@ -1436,7 +1436,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                                     NUIDocView.this.onSelectionMonitor(var1, var2);
                                 }
                             });
-                            NUIDocView.this.mSession.open(NUIDocView.this.f.getInternalPath());
+                            NUIDocView.this.mSession.open(NUIDocView.this.soFileState.getInternalPath());
                             NUIDocView.this.i.setDoc(NUIDocView.this.mSession.getDoc());
                             if (NUIDocView.this.usePagesView()) {
                                 NUIDocView.this.j.setDoc(NUIDocView.this.mSession.getDoc());
@@ -1499,12 +1499,12 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                                 var10 = new SOFileStateDummy(var9x.l);
                             }
 
-                            var9x.f = (SOFileState) var10;
-                            NUIDocView.this.f.openFile(NUIDocView.this.T);
-                            NUIDocView.this.f.setHasChanges(false);
+                            var9x.soFileState = (SOFileState) var10;
+                            NUIDocView.this.soFileState.openFile(NUIDocView.this.T);
+                            NUIDocView.this.soFileState.setHasChanges(false);
                             var1 = NUIDocView.this;
                             var1.mSession = new SODocSession2(var9, var1.ah);
-                            NUIDocView.this.mSession.setFileState(NUIDocView.this.f);
+                            NUIDocView.this.mSession.setFileState(NUIDocView.this.soFileState);
                             NUIDocView.this.mSession.setSODocSessionLoadListener(new SODocSessionLoadListener() {
                                 public void onCancel() {
                                     NUIDocView.this.b();
@@ -1545,7 +1545,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                                     NUIDocView.this.onSelectionMonitor(var1, var2);
                                 }
                             });
-                            NUIDocView.this.mSession.open(NUIDocView.this.f.getInternalPath());
+                            NUIDocView.this.mSession.open(NUIDocView.this.soFileState.getInternalPath());
                             NUIDocView.this.i.setDoc(NUIDocView.this.mSession.getDoc());
                             if (NUIDocView.this.usePagesView()) {
                                 NUIDocView.this.j.setDoc(NUIDocView.this.mSession.getDoc());
@@ -1760,7 +1760,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.fontDownButton = (AppCompatImageView) this.createToolbarButton(id.fontdown_button);
         this.fontNameText = (SOTextView) this.createToolbarButton(id.font_name_text);
         this.fontColorButton = (AppCompatImageView) this.createToolbarButton(id.font_color_button);
-        this.H = (LinearLayout) this.createToolbarButton(id.font_background_button);
+        this.fontBGButton = (LinearLayout) this.createToolbarButton(id.font_background_button);
 
         this.I = (LinearLayout) this.createToolbarButton(id.cut_button);
         this.J = (LinearLayout) this.createToolbarButton(id.copy_button);
@@ -2129,11 +2129,11 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             this.preSaveQuestion(new Runnable() {
                 public void run() {
                     final ProgressDialog var1 = Utilities.createAndShowWaitSpinner(NUIDocView.this.getContext());
-                    NUIDocView.this.mSession.getDoc().a(NUIDocView.this.f.getInternalPath(), new SODocSaveListener() {
+                    NUIDocView.this.mSession.getDoc().a(NUIDocView.this.soFileState.getInternalPath(), new SODocSaveListener() {
                         public void onComplete(int var1x, int var2) {
                             var1.dismiss();
                             if (var1x == 0) {
-                                NUIDocView.this.f.saveFile();
+                                NUIDocView.this.soFileState.saveFile();
                                 NUIDocView.this.updateUIAppearance();
                                 if (NUIDocView.this.n != null) {
                                     NUIDocView.this.n.postSaveHandler(new SOSaveAsComplete() {
@@ -2190,7 +2190,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     public boolean documentHasBeenModified() {
         SODocSession var1 = this.mSession;
         boolean var2;
-        if (var1 == null || var1.getDoc() == null || this.f == null || !this.mSession.getDoc().getHasBeenModified() && !this.f.hasChanges()) {
+        if (var1 == null || var1.getDoc() == null || this.soFileState == null || !this.mSession.getDoc().getHasBeenModified() && !this.soFileState.hasChanges()) {
             var2 = false;
         } else {
             var2 = true;
@@ -2470,23 +2470,23 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                                     } else if (NUIDocView.this.T) {
                                         NUIDocView.this.a(true);
                                     } else {
-                                        NUIDocView.this.mSession.getDoc().a(NUIDocView.this.f.getInternalPath(), new SODocSaveListener() {
+                                        NUIDocView.this.mSession.getDoc().a(NUIDocView.this.soFileState.getInternalPath(), new SODocSaveListener() {
                                             public void onComplete(int var1, int var2) {
                                                 if (var1 == 0) {
-                                                    NUIDocView.this.f.saveFile();
+                                                    NUIDocView.this.soFileState.saveFile();
                                                     if (NUIDocView.this.n != null) {
                                                         NUIDocView.this.n.postSaveHandler(new SOSaveAsComplete() {
                                                             public void onComplete(int var1, String var2) {
-                                                                NUIDocView.this.f.closeFile();
+                                                                NUIDocView.this.soFileState.closeFile();
                                                                 NUIDocView.this.prefinish();
                                                             }
                                                         });
                                                     } else {
-                                                        NUIDocView.this.f.closeFile();
+                                                        NUIDocView.this.soFileState.closeFile();
                                                         NUIDocView.this.prefinish();
                                                     }
                                                 } else {
-                                                    NUIDocView.this.f.closeFile();
+                                                    NUIDocView.this.soFileState.closeFile();
                                                     String var3 = String.format(NUIDocView.this.activity().getString(string.sodk_editor_error_saving_document_code), var2);
                                                     Utilities.showMessage(NUIDocView.this.activity(), NUIDocView.this.activity().getString(string.sodk_editor_error), var3);
                                                 }
@@ -2504,7 +2504,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                     }).setNegativeButton(string.sodk_editor_discard, new android.content.DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface var1, int var2) {
                             var1.dismiss();
-                            NUIDocView.this.f.closeFile();
+                            NUIDocView.this.soFileState.closeFile();
                             NUIDocView.this.e = new Boolean(false);
                             NUIDocView.this.prefinish();
                         }
@@ -2738,7 +2738,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                 this.onFontColorButton(var1);
             }
 
-            if (var1 == this.H) {
+            if (var1 == this.fontBGButton) {
                 this.onFontBackgroundButton(var1);
             }
 
@@ -2896,10 +2896,10 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         if (this.n != null) {
             this.preSaveQuestion(new Runnable() {
                 public void run() {
-                    String var1 = NUIDocView.this.f.getUserPath();
+                    String var1 = NUIDocView.this.soFileState.getUserPath();
                     String var2 = var1;
                     if (var1 == null) {
-                        var2 = NUIDocView.this.f.getOpenedPath();
+                        var2 = NUIDocView.this.soFileState.getOpenedPath();
                     }
 
                     File var8 = new File(var2);
@@ -2912,9 +2912,9 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
                         String var4 = NUIDocView.this.k;
                         SOCustomSaveComplete var5 = new SOCustomSaveComplete() {
                             public void onComplete(int var1, String var2, boolean var3) {
-                                NUIDocView.this.f.setHasChanges(false);
+                                NUIDocView.this.soFileState.setHasChanges(false);
                                 if (var1 == 0) {
-                                    NUIDocView.this.f.setHasChanges(false);
+                                    NUIDocView.this.soFileState.setHasChanges(false);
                                 }
 
                                 if (var3) {
@@ -3025,7 +3025,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     }
 
     public void onFontBackgroundButton(View var1) {
-        (new ColorDialog(2, this.getContext(), this.mSession.getDoc(), this.i, new ColorChangedListener() {
+        (new ColorDialogCp(2, this.getContext(), this.mSession.getDoc(), var1, new ColorChangedListener() {
             public void onColorChanged(String var1) {
                 if (var1.equals("transparent")) {
                     NUIDocView.this.mSession.getDoc().setSelectionBackgroundTransparent();
@@ -3038,7 +3038,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     }
 
     public void onFontColorButton(View var1) {
-        (new ColorDialog(1, this.getContext(), this.mSession.getDoc(), this.i, new ColorChangedListener() {
+        (new ColorDialogCp(1, this.getContext(), this.mSession.getDoc(), var1, new ColorChangedListener() {
             public void onColorChanged(String var1) {
                 NUIDocView.this.mSession.getDoc().setSelectionFontColor(var1);
             }
@@ -3200,7 +3200,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.preSave();
         if (this.n != null) {
             try {
-                File var4 = new File(this.f.getOpenedPath());
+                File var4 = new File(this.soFileState.getOpenedPath());
                 this.n.openInHandler(var4.getName(), this.mSession.getDoc());
             } catch (NullPointerException var2) {
             } catch (UnsupportedOperationException var3) {
@@ -3214,7 +3214,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.preSave();
         if (this.n != null) {
             try {
-                File var4 = new File(this.f.getOpenedPath());
+                File var4 = new File(this.soFileState.getOpenedPath());
                 this.n.openPdfInHandler(var4.getName(), this.mSession.getDoc());
             } catch (NullPointerException var2) {
             } catch (UnsupportedOperationException var3) {
@@ -3312,7 +3312,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.onPauseCommon();
         DocView var1 = this.i;
         if (var1 == null || !var1.finished()) {
-            if (this.f != null) {
+            if (this.soFileState != null) {
                 var1 = this.i;
                 if (var1 != null && var1.getDoc() != null && this.n != null) {
                     SODoc var2 = this.i.getDoc();
@@ -3425,8 +3425,8 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.am = 0;
         this.onShowKeyboard(false);
         SOFileState var1 = SOFileState.getAutoOpen(this.getContext());
-        if (var1 != null && this.f != null && var1.getLastAccess() > this.f.getLastAccess()) {
-            this.f.setHasChanges(var1.hasChanges());
+        if (var1 != null && this.soFileState != null && var1.getLastAccess() > this.soFileState.getLastAccess()) {
+            this.soFileState.setHasChanges(var1.hasChanges());
         }
 
         SOFileState.clearAutoOpen(this.getContext());
@@ -3480,7 +3480,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     public void onSavePDFButton(View var1) {
         if (this.n != null) {
             try {
-                File var3 = new File(this.f.getOpenedPath());
+                File var3 = new File(this.soFileState.getOpenedPath());
                 this.n.saveAsPdfHandler(var3.getName(), this.mSession.getDoc());
             } catch (UnsupportedOperationException var2) {
             }
@@ -3562,7 +3562,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
         this.preSave();
         if (this.n != null) {
             try {
-                File var4 = new File(this.f.getOpenedPath());
+                File var4 = new File(this.soFileState.getOpenedPath());
                 this.n.shareHandler(var4.getName(), this.mSession.getDoc());
             } catch (NullPointerException var2) {
             } catch (UnsupportedOperationException var3) {
@@ -3733,7 +3733,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 
             this.m = null;
             this.j();
-            SOFileState var2 = this.f;
+            SOFileState var2 = this.soFileState;
             if (var2 != null) {
                 var2.closeFile();
             }
@@ -4668,7 +4668,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             var11 = Utilities.getSelectionFontName(this.mSession.getDoc());
             this.fontNameText.setText(var11);
             this.fontColorButton.setEnabled(var3);
-            this.H.setEnabled(var3);
+            this.fontBGButton.setEnabled(var3);
             if (var4 && this.mSession.getDoc().getSelectionCanBeDeleted()) {
                 var3 = true;
             } else {

@@ -188,6 +188,7 @@
             android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".screens.activities.DocxReaderActivity" />
+        <activity android:name="com.artifex.sonui.dialog.SaveEditDialog" />
 
         <meta-data
             android:name="com.google.android.gms.version"

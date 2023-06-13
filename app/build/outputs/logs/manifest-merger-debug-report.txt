@@ -22,10 +22,10 @@ INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:95:
 	android:name
 		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:96:13-62
 manifest
-ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
-INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
-INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
-INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
+ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
+INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
+INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
+INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2e4fdd618ce2e96a3a3a139a1aeb3549\jetified-dexter-5.0.0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.github.SanojPunchihewa:InAppUpdater:1.0.5-alpha.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a1677ffc23178f9656d4ccd1e7ce60f\jetified-InAppUpdater-1.0.5-alpha.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -121,22 +121,22 @@ MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Admin\.gradle\cach
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\98cacd5a6d91735dbe41019a25021487\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.play:core:1.6.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7c00e582fbeba7d89dff1b788c3fa9d8\jetified-core-1.6.3\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8b1826e082b884f9fc593d27a9580a45\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
-INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
-INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
+INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
+INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
+INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
 	package
 		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:4:5-35
 		INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml
 		INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
 		INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-204:12
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:1-205:12
 		INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:2:11-69
@@ -203,7 +203,7 @@ MERGED from [com.otaliastudios:cameraview:2.7.1] C:\Users\Admin\.gradle\caches\t
 	android:name
 		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:15:22-62
 application
-ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:17:5-203:19
+ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:17:5-204:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2e4fdd618ce2e96a3a3a139a1aeb3549\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2e4fdd618ce2e96a3a3a139a1aeb3549\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -452,26 +452,30 @@ activity#com.all.officereader.screens.activities.DocxReaderActivity
 ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:190:9-75
 	android:name
 		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:190:19-72
+activity#com.artifex.sonui.dialog.SaveEditDialog
+ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:191:9-76
+	android:name
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:191:19-73
 meta-data#com.google.android.gms.version
-ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:192:9-194:69
+ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:193:9-195:69
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\05e66e15a69fa7b37fe5944ea963478e\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\05e66e15a69fa7b37fe5944ea963478e\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:194:13-66
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:195:13-66
 	android:name
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:193:13-58
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:194:13-58
 meta-data#com.google.android.gms.ads.AD_MANAGER_APP
-ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:196:9-198:36
+ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:197:9-199:36
 	android:value
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:198:13-33
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:199:13-33
 	android:name
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:197:13-69
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:198:13-69
 meta-data#com.google.mlkit.vision.DEPENDENCIES
-ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:200:9-202:35
+ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:201:9-203:35
 	android:value
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:202:13-32
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:203:13-32
 	android:name
-		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:201:13-64
+		ADDED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml:202:13-64
 uses-sdk
 INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\StudioProject\OfficeReader\app\src\main\AndroidManifest.xml

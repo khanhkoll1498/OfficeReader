@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/big_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#CC000000">
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_24sdp"
+        android:background="@drawable/bg_dialog"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_12sdp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unsaved_changes"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_14sdp"
+            />
+
+        <TextView
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:backgroundTint="#F44336"
+            android:text="@string/text_dialog_unsave"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="HardcodedText" />
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/txtName"-->
+        <!--        android:layout_width="@dimen/_250sdp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_gravity="center"-->
+        <!--        android:fontFamily="@font/poppins_semibold"-->
+        <!--        android:gravity="center"-->
+        <!--        android:textColor="#251D36"-->
+        <!--        android:textSize="@dimen/_12sdp"-->
+        <!--        tools:text="aaaaaa" />-->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/continueEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="#129253"
+                android:padding="@dimen/_4sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                app:layout_constraintEnd_toStartOf="@id/tv_done"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <TextView
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center"
+                android:text="@string/sodk_editor_discard"
+                android:textAllCaps="false"
+                android:textColor="#ACACAC"
+                android:textSize="@dimen/_12sdp"
+                tools:targetApi="p" />
+            <TextView
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/tv_done"
+                android:padding="@dimen/_4sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textColor="#129253"
+                android:textSize="@dimen/_12sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</LinearLayout>

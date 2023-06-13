@@ -221,8 +221,6 @@
                     android:text="Paste"
                     android:textColor="#2F2F2F" />
             </LinearLayout>
-
-
         </LinearLayout>
     </LinearLayout>
 </merge>
