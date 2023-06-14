@@ -123,8 +123,8 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     protected int mPageCount;
     protected ToolbarButton mProtectButton;
     protected ImageView mRedoButton;
-    protected LinearLayout mSaveAsButton;
-    protected LinearLayout mSaveButton;
+    protected ImageView mSaveAsButton;
+    protected ImageView mSaveButton;
     protected LinearLayout mSavePdfButton;
     protected LinearLayout mPrintButton;
     protected SODocSession2 mSession;
@@ -1201,12 +1201,12 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 //                NUIDocView.this.searchBar.setText("");
 //            }
 //        });
-        this.mSaveButton = (LinearLayout) this.createToolbarButton(id.save_button);
+        this.mSaveButton = (ImageView) this.createToolbarButton(id.save_button);
 
-        this.saveEdit = this.findViewById(com.all.officereader.R.id.saveEdit);
-        setSaveClick();
+//        this.saveEdit = this.findViewById(com.all.officereader.R.id.saveEdit);
+//        setSaveClick();
 
-        this.mSaveAsButton = (LinearLayout) this.createToolbarButton(id.save_as_button);
+        this.mSaveAsButton = (ImageView) this.createToolbarButton(id.save_as_button);
         this.mSavePdfButton = (LinearLayout) this.createToolbarButton(id.save_pdf_button);
         this.mPrintButton = (LinearLayout) this.createToolbarButton(id.print_button);
         this.o = (ToolbarButton) this.createToolbarButton(id.share_button);

@@ -5212,7 +5212,6 @@ id rv_folder_image
 id rv_image
 id rv_ocr_item
 id rv_preview_scanner
-id saveEdit
 id save_as_button
 id save_button
 id save_image_matrix
